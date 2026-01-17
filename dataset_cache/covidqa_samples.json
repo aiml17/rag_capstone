@@ -1,0 +1,1821 @@
+[
+  {
+    "id": "778",
+    "question": "What was the range of genomic sequencing depths?",
+    "documents": [
+      "Title: From Theory to Practice: Translating Whole-Genome Sequencing (WGS) into the Clinic\nPassage: Relative to the time required for culture and downstream analysis of the data, variation in the speed of different sequencing technologies is relatively modest. There is considerable enthusiasm for the Oxford Nanopore Technology which outputs data in real time, although the ONT requires a comparable amount of time to the popular Illumina Miseq sequencer to generate the same volume of sequence data. Sequencing on the MiSeq sequencer takes between 13 to 56 hours, but as run time correlates with sequence output and read length, researchers tend to systematically favour runs of longer duration.",
+      "Title: Standards for Sequencing Viral Genomes in the Era of High-Throughput Sequencing\nPassage: Population-level characterization. HT sequencing technologies provide powerful platforms for investigating the genetic diversity within viral populations, which is integral to our understanding of viral evolution and pathogenesis . Population-level characterization requires very high levels of HT sequencing coverage ; however, the exact level will depend on the background error profiles of the sequencing technology and the desired level of sensitivity. As an example, Wang et al. determined that for pyrosequencing data,~400ϫ coverage is necessary to identify minor variants present at 1% frequency with 99.999% confidence, and~1,000ϫ coverage is needed for variants with a frequency of 0.5%. Targeted amplification of the",
+      "Title: Discovering myeloid cell heterogeneity in the lung by means of next generation sequencing\nPassage: In 1977, Sanger and colleagues published a methodological paper on determining the DNA sequence, providing a tool for deciphering complete genes. This sequencing method, also known as Sanger sequencing, is based on specific chain-terminating inhibitors of DNA polymerase and was subsequently the most widely used sequencing method for the next 30 years. Sanger sequencing was able to obtain the sequence of DNA as long as 1000 bp with high accuracy. However, this low-throughput sequencing method was expensive, time consuming and insufficient to achieve the ultimate goal of deciphering the complicated biological genome. These weaknesses drove the development of high-throughput sequencing:",
+      "Title: Deep sequencing analysis of viral infection and evolution allows rapid and detailed characterization of viral mutant spectrum\nPassage: of 0.00043 mutations/nucleotide, while the low fidelity variants presented roughly 3-fold more . When all minority variants identified by ViVan were taken into account, regardless of their frequency , the diversity of all three virus populations were significantly higher. Wild type virus, in particular, had higher than expected frequencies of 0.00107 mutations/nucleotide in the region previously sequenced by Gnä dig et al., and 0.000996 mutations/nucleotide across the entire genome. These data suggest that the higher sensitivity of HTS identifies more extremely low-frequency variants than would otherwise be detected by other available methods. Indeed, when cut-off thresholds of 0.005 or 0.01"
+    ],
+    "response": "",
+    "context_relevance": 0.09090909090909091,
+    "context_utilization": 0.09090909090909091,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "778",
+      "question": "What was the range of genomic sequencing depths?",
+      "documents": [
+        "Title: From Theory to Practice: Translating Whole-Genome Sequencing (WGS) into the Clinic\nPassage: Relative to the time required for culture and downstream analysis of the data, variation in the speed of different sequencing technologies is relatively modest. There is considerable enthusiasm for the Oxford Nanopore Technology which outputs data in real time, although the ONT requires a comparable amount of time to the popular Illumina Miseq sequencer to generate the same volume of sequence data. Sequencing on the MiSeq sequencer takes between 13 to 56 hours, but as run time correlates with sequence output and read length, researchers tend to systematically favour runs of longer duration.",
+        "Title: Standards for Sequencing Viral Genomes in the Era of High-Throughput Sequencing\nPassage: Population-level characterization. HT sequencing technologies provide powerful platforms for investigating the genetic diversity within viral populations, which is integral to our understanding of viral evolution and pathogenesis . Population-level characterization requires very high levels of HT sequencing coverage ; however, the exact level will depend on the background error profiles of the sequencing technology and the desired level of sensitivity. As an example, Wang et al. determined that for pyrosequencing data,~400ϫ coverage is necessary to identify minor variants present at 1% frequency with 99.999% confidence, and~1,000ϫ coverage is needed for variants with a frequency of 0.5%. Targeted amplification of the",
+        "Title: Discovering myeloid cell heterogeneity in the lung by means of next generation sequencing\nPassage: In 1977, Sanger and colleagues published a methodological paper on determining the DNA sequence, providing a tool for deciphering complete genes. This sequencing method, also known as Sanger sequencing, is based on specific chain-terminating inhibitors of DNA polymerase and was subsequently the most widely used sequencing method for the next 30 years. Sanger sequencing was able to obtain the sequence of DNA as long as 1000 bp with high accuracy. However, this low-throughput sequencing method was expensive, time consuming and insufficient to achieve the ultimate goal of deciphering the complicated biological genome. These weaknesses drove the development of high-throughput sequencing:",
+        "Title: Deep sequencing analysis of viral infection and evolution allows rapid and detailed characterization of viral mutant spectrum\nPassage: of 0.00043 mutations/nucleotide, while the low fidelity variants presented roughly 3-fold more . When all minority variants identified by ViVan were taken into account, regardless of their frequency , the diversity of all three virus populations were significantly higher. Wild type virus, in particular, had higher than expected frequencies of 0.00107 mutations/nucleotide in the region previously sequenced by Gnä dig et al., and 0.000996 mutations/nucleotide across the entire genome. These data suggest that the higher sensitivity of HTS identifies more extremely low-frequency variants than would otherwise be detected by other available methods. Indeed, when cut-off thresholds of 0.005 or 0.01"
+      ],
+      "response": "The range of genomic sequencing depths mentioned in the passages is approximately 400x to 1000x coverage.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: From Theory to Practice: Translating Whole-Genome Sequencing (WGS) into the Clinic"
+          ],
+          [
+            "0b",
+            "Passage: Relative to the time required for culture and downstream analysis of the data, variation in the speed of different sequencing technologies is relatively modest."
+          ],
+          [
+            "0c",
+            "There is considerable enthusiasm for the Oxford Nanopore Technology which outputs data in real time, although the ONT requires a comparable amount of time to the popular Illumina Miseq sequencer to generate the same volume of sequence data."
+          ],
+          [
+            "0d",
+            "Sequencing on the MiSeq sequencer takes between 13 to 56 hours, but as run time correlates with sequence output and read length, researchers tend to systematically favour runs of longer duration."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Standards for Sequencing Viral Genomes in the Era of High-Throughput Sequencing"
+          ],
+          [
+            "1b",
+            "Passage: Population-level characterization."
+          ],
+          [
+            "1c",
+            "HT sequencing technologies provide powerful platforms for investigating the genetic diversity within viral populations, which is integral to our understanding of viral evolution and pathogenesis ."
+          ],
+          [
+            "1d",
+            "Population-level characterization requires very high levels of HT sequencing coverage ; however, the exact level will depend on the background error profiles of the sequencing technology and the desired level of sensitivity."
+          ],
+          [
+            "1e",
+            "As an example, Wang et al. determined that for pyrosequencing data,~400ϫ coverage is necessary to identify minor variants present at 1% frequency with 99.999% confidence, and~1,000ϫ coverage is needed for variants with a frequency of 0.5%."
+          ],
+          [
+            "1f",
+            "Targeted amplification of the"
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Discovering myeloid cell heterogeneity in the lung by means of next generation sequencing"
+          ],
+          [
+            "2b",
+            "Passage: In 1977, Sanger and colleagues published a methodological paper on determining the DNA sequence, providing a tool for deciphering complete genes."
+          ],
+          [
+            "2c",
+            "This sequencing method, also known as Sanger sequencing, is based on specific chain-terminating inhibitors of DNA polymerase and was subsequently the most widely used sequencing method for the next 30 years."
+          ],
+          [
+            "2d",
+            "Sanger sequencing was able to obtain the sequence of DNA as long as 1000 bp with high accuracy."
+          ],
+          [
+            "2e",
+            "However, this low-throughput sequencing method was expensive, time consuming and insufficient to achieve the ultimate goal of deciphering the complicated biological genome."
+          ],
+          [
+            "2f",
+            "These weaknesses drove the development of high-throughput sequencing:"
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Deep sequencing analysis of viral infection and evolution allows rapid and detailed characterization of viral mutant spectrum"
+          ],
+          [
+            "3b",
+            "Passage: of 0.00043 mutations/nucleotide, while the low fidelity variants presented roughly 3-fold more ."
+          ],
+          [
+            "3c",
+            "When all minority variants identified by ViVan were taken into account, regardless of their frequency , the diversity of all three virus populations were significantly higher."
+          ],
+          [
+            "3d",
+            "Wild type virus, in particular, had higher than expected frequencies of 0.00107 mutations/nucleotide in the region previously sequenced by Gnä dig et al., and 0.000996 mutations/nucleotide across the entire genome."
+          ],
+          [
+            "3e",
+            "These data suggest that the higher sensitivity of HTS identifies more extremely low-frequency variants than would otherwise be detected by other available methods."
+          ],
+          [
+            "3f",
+            "Indeed, when cut-off thresholds of 0.005 or 0.01"
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The range of genomic sequencing depths mentioned in the passages is approximately 400x to 1000x coverage."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence correctly summarizes the information provided in Document 1, which mentions that approximately 400x to 1000x coverage is required for population-level characterization depending on the desired level of sensitivity and the frequency of the variants.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "1d",
+            "1e"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response accurately identifies the range of genomic sequencing depths based on the figures provided in Document 1. Specifically, Wang et al.'s research is cited, stating that around 400x coverage is necessary to identify minor variants with 99.999% confidence, and 1000x coverage is needed for even smaller variant frequencies. Therefore, the claim in the response that the range of genomic sequencing depths is approximately 400x to 1000x is fully supported by the content of the documents.",
+      "relevance_explanation": "Document 1 contains useful information for answering the question because it explicitly mentions the sequencing depths required for population-level characterization. Specifically, it states the necessary coverage levels for identifying different variant frequencies in sequencing data. None of the other documents contain information relevant to the range of genomic sequencing depths.",
+      "all_relevant_sentence_keys": [
+        "1d",
+        "1e"
+      ],
+      "all_utilized_sentence_keys": [
+        "1d",
+        "1e"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 0.6,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.0,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.09090909090909091,
+      "gpt35_utilization": 0.09090909090909091,
+      "relevance_score": 0.09090909090909091,
+      "utilization_score": 0.09090909090909091,
+      "completeness_score": 1.0
+    },
+    "_domain": "covidqa",
+    "dataset_id": "778"
+  },
+  {
+    "id": "997",
+    "question": "What  are the attractive features of the PIV5 vector?",
+    "documents": [
+      "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: Parainfluenza virus type 5 is a paramyxovirus vaccine vector being explored for delivery of influenza and other infectious disease vaccine antigens. PIV5 has only recently been described as a vaccine vector . Similar to other RNA viruses, PIV5 has a number of features that make it an attractive vaccine vector. For example, PIV5 has a stable RNA genome and no DNA phase in virus replication cycle reducing concerns of host genome integration or modification. PIV5 can be grown to very high titers in mammalian vaccine cell culture substrates and is not cytopathic allowing for extended culture and harvest of vaccine",
+      "Title: Viral vector-based influenza vaccines\nPassage: Parainfluenza virus 5 is, like NDV, a negative sense RNA paramyxovirus that is only recently being explored as an influenza virus vaccine vector . Favorable properties of PIV-5 as a vector include: broad tissue and cell tropism, no clinical disease in humans and availability of reverse genetics systems. Although PIV-5 does not cause disease in humans, PIV-5 has been associated with 'kennel cough' in dogs. 180 In an initial study, vaccination with PIV-5 expressing the HA of an A virus afforded protection against homologous challenge infection. 181 PIV-5 expressing the HA genes of A/ Vietnam/1203/04 and A/Anhui/1/13 also completely protected",
+      "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: virus . Like NDV, PIV5 has a 3'-to 5' gradient of gene expression and insertion of transgenes at different locations in the genome can variably attenuate the virus and alter transgene expression . PIV5 has broad tropism, infecting many cell types, tissues, and species without causing clinical disease, although PIV5 has been associated with -kennel cough‖ in dogs . A reverse genetics system for PIV5 was first used to insert the HA gene from A/Udorn/307/72 into the PIV5 genome between the hemagglutinin-neuraminidase gene and the large polymerase gene. Similar to NDV, the HA was expressed at high levels in infected",
+      "Title: Viral vector-based influenza vaccines\nPassage: candidate influenza vaccine in other animal models. Furthermore, clinical trials in humans have not been performed with PIV-5 yet, so safety and efficacy data is therefore not available. Finally, little is known about pre-existing immunity to the vector in humans. However, in dogs, a PIV-5 vector vaccine expressing the HA gene of influenza virus could still induce robust antibody responses in the presence of PIV-5-specific immunity. 180 It remains to be determined whether PIV-5 is safe and immunogenic when used in humans."
+    ],
+    "response": "",
+    "context_relevance": 0.4583333333333333,
+    "context_utilization": 0.20833333333333334,
+    "completeness": 0.45454545454545453,
+    "adherence": 1.0,
+    "_original": {
+      "id": "997",
+      "question": "What  are the attractive features of the PIV5 vector?",
+      "documents": [
+        "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: Parainfluenza virus type 5 is a paramyxovirus vaccine vector being explored for delivery of influenza and other infectious disease vaccine antigens. PIV5 has only recently been described as a vaccine vector . Similar to other RNA viruses, PIV5 has a number of features that make it an attractive vaccine vector. For example, PIV5 has a stable RNA genome and no DNA phase in virus replication cycle reducing concerns of host genome integration or modification. PIV5 can be grown to very high titers in mammalian vaccine cell culture substrates and is not cytopathic allowing for extended culture and harvest of vaccine",
+        "Title: Viral vector-based influenza vaccines\nPassage: Parainfluenza virus 5 is, like NDV, a negative sense RNA paramyxovirus that is only recently being explored as an influenza virus vaccine vector . Favorable properties of PIV-5 as a vector include: broad tissue and cell tropism, no clinical disease in humans and availability of reverse genetics systems. Although PIV-5 does not cause disease in humans, PIV-5 has been associated with 'kennel cough' in dogs. 180 In an initial study, vaccination with PIV-5 expressing the HA of an A virus afforded protection against homologous challenge infection. 181 PIV-5 expressing the HA genes of A/ Vietnam/1203/04 and A/Anhui/1/13 also completely protected",
+        "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: virus . Like NDV, PIV5 has a 3'-to 5' gradient of gene expression and insertion of transgenes at different locations in the genome can variably attenuate the virus and alter transgene expression . PIV5 has broad tropism, infecting many cell types, tissues, and species without causing clinical disease, although PIV5 has been associated with -kennel cough‖ in dogs . A reverse genetics system for PIV5 was first used to insert the HA gene from A/Udorn/307/72 into the PIV5 genome between the hemagglutinin-neuraminidase gene and the large polymerase gene. Similar to NDV, the HA was expressed at high levels in infected",
+        "Title: Viral vector-based influenza vaccines\nPassage: candidate influenza vaccine in other animal models. Furthermore, clinical trials in humans have not been performed with PIV-5 yet, so safety and efficacy data is therefore not available. Finally, little is known about pre-existing immunity to the vector in humans. However, in dogs, a PIV-5 vector vaccine expressing the HA gene of influenza virus could still induce robust antibody responses in the presence of PIV-5-specific immunity. 180 It remains to be determined whether PIV-5 is safe and immunogenic when used in humans."
+      ],
+      "response": "Some of the attractive features of the PIV5 vector include:\n- Stable RNA genome and no DNA phase in virus replication cycle, reducing concerns of host genome integration or modification\n- Ability to be grown to very high titers in mammalian vaccine cell culture substrates\n- Not causing clinical disease in humans\n- No cytopathic effects, allowing for extended culture and harvest of vaccine\n- Broad tissue and cell tropism, infecting many cell types, tissues, and species without causing clinical disease",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: Virus-Vectored Influenza Virus Vaccines"
+          ],
+          [
+            "0b",
+            "Passage: Parainfluenza virus type 5 is a paramyxovirus vaccine vector being explored for delivery of influenza and other infectious disease vaccine antigens."
+          ],
+          [
+            "0c",
+            "PIV5 has only recently been described as a vaccine vector ."
+          ],
+          [
+            "0d",
+            "Similar to other RNA viruses, PIV5 has a number of features that make it an attractive vaccine vector."
+          ],
+          [
+            "0e",
+            "For example, PIV5 has a stable RNA genome and no DNA phase in virus replication cycle reducing concerns of host genome integration or modification."
+          ],
+          [
+            "0f",
+            "PIV5 can be grown to very high titers in mammalian vaccine cell culture substrates and is not cytopathic allowing for extended culture and harvest of vaccine"
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Viral vector-based influenza vaccines"
+          ],
+          [
+            "1b",
+            "Passage: Parainfluenza virus 5 is, like NDV, a negative sense RNA paramyxovirus that is only recently being explored as an influenza virus vaccine vector ."
+          ],
+          [
+            "1c",
+            "Favorable properties of PIV-5 as a vector include: broad tissue and cell tropism, no clinical disease in humans and availability of reverse genetics systems."
+          ],
+          [
+            "1d",
+            "Although PIV-5 does not cause disease in humans, PIV-5 has been associated with 'kennel cough' in dogs."
+          ],
+          [
+            "1e",
+            "180 In an initial study, vaccination with PIV-5 expressing the HA of an A virus afforded protection against homologous challenge infection."
+          ],
+          [
+            "1f",
+            "181 PIV-5 expressing the HA genes of A/ Vietnam/1203/04 and A/Anhui/1/13 also completely protected"
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Virus-Vectored Influenza Virus Vaccines"
+          ],
+          [
+            "2b",
+            "Passage: virus ."
+          ],
+          [
+            "2c",
+            "Like NDV, PIV5 has a 3'-to 5' gradient of gene expression and insertion of transgenes at different locations in the genome can variably attenuate the virus and alter transgene expression ."
+          ],
+          [
+            "2d",
+            "PIV5 has broad tropism, infecting many cell types, tissues, and species without causing clinical disease, although PIV5 has been associated with -kennel cough‖ in dogs ."
+          ],
+          [
+            "2e",
+            "A reverse genetics system for PIV5 was first used to insert the HA gene from A/Udorn/307/72 into the PIV5 genome between the hemagglutinin-neuraminidase gene and the large polymerase gene."
+          ],
+          [
+            "2f",
+            "Similar to NDV, the HA was expressed at high levels in infected"
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Viral vector-based influenza vaccines"
+          ],
+          [
+            "3b",
+            "Passage: candidate influenza vaccine in other animal models."
+          ],
+          [
+            "3c",
+            "Furthermore, clinical trials in humans have not been performed with PIV-5 yet, so safety and efficacy data is therefore not available."
+          ],
+          [
+            "3d",
+            "Finally, little is known about pre-existing immunity to the vector in humans."
+          ],
+          [
+            "3e",
+            "However, in dogs, a PIV-5 vector vaccine expressing the HA gene of influenza virus could still induce robust antibody responses in the presence of PIV-5-specific immunity."
+          ],
+          [
+            "3f",
+            "180 It remains to be determined whether PIV-5 is safe and immunogenic when used in humans."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "Some of the attractive features of the PIV5 vector include:"
+        ],
+        [
+          "b",
+          "- Stable RNA genome and no DNA phase in virus replication cycle, reducing concerns of host genome integration or modification"
+        ],
+        [
+          "c",
+          "- Ability to be grown to very high titers in mammalian vaccine cell culture substrates"
+        ],
+        [
+          "d",
+          "- Not causing clinical disease in humans"
+        ],
+        [
+          "e",
+          "- No cytopathic effects, allowing for extended culture and harvest of vaccine"
+        ],
+        [
+          "f",
+          "- Broad tissue and cell tropism, infecting many cell types, tissues, and species without causing clinical disease"
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This is an introductory sentence summarizing the content that follows. It does not require specific support from the documents as it sets up the detailed points in subsequent sentences.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "general"
+          ]
+        },
+        {
+          "explanation": "This sentence is supported by sentence 0e, which mentions that PIV5 has a stable RNA genome and no DNA phase in the replication cycle.",
+          "fully_supported": true,
+          "response_sentence_key": "b",
+          "supporting_sentence_keys": [
+            "0e"
+          ]
+        },
+        {
+          "explanation": "This sentence is supported by sentence 0f, which states that PIV5 can be grown to very high titers in mammalian vaccine cell culture substrates.",
+          "fully_supported": true,
+          "response_sentence_key": "c",
+          "supporting_sentence_keys": [
+            "0f"
+          ]
+        },
+        {
+          "explanation": "This sentence is supported by sentences 1c, 1d, and 2d, which explain that PIV5 does not cause clinical disease in humans.",
+          "fully_supported": true,
+          "response_sentence_key": "d",
+          "supporting_sentence_keys": [
+            "1c",
+            "1d",
+            "2d"
+          ]
+        },
+        {
+          "explanation": "This sentence is supported by sentence 0f, which notes that PIV5 is not cytopathic, allowing for extended culture and harvest of vaccine.",
+          "fully_supported": true,
+          "response_sentence_key": "e",
+          "supporting_sentence_keys": [
+            "0f"
+          ]
+        },
+        {
+          "explanation": "This sentence is supported by sentences 1c and 2d, which highlight the broad tissue and cell tropism of PIV5, infecting many cell types and tissues without causing clinical disease.",
+          "fully_supported": true,
+          "response_sentence_key": "f",
+          "supporting_sentence_keys": [
+            "1c",
+            "2d"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response is generally supported by the documents provided. Each sentence in the response is backed by specific information from different documents. The stable RNA genome and no DNA phase is supported by sentence 0e; the ability to grow to high titers in mammalian cells is supported by sentence 0f; the lack of clinical disease in humans is supported by sentences 1c, 1d, and 2d; no cytopathic effects are supported by sentence 0f; and the broad tissue and cell tropism is confirmed by sentences 1c and 2d. Therefore, the response holistically captures the attractive features of the PIV5 vector as outlined in the provided documents.",
+      "relevance_explanation": "Documents 0, 1, 2, and 3 contain useful information for answering the question about the attractive features of the PIV5 vector. They each provide specific details on the properties of PIV5 that make it an appealing candidate for use as an influenza virus vaccine vector. Document 0 highlights the stable RNA genome and high titer growth in mammalian cells. Document 1 mentions the lack of clinical disease in humans and broad tropism, as well as other favorable properties like reverse genetics systems availability. Document 2 discusses broad tropism and the association with kennel cough in dogs, while Document 3 notes the absence of clinical trials in humans and the potential for robust antibody responses in dogs.",
+      "all_relevant_sentence_keys": [
+        "0b",
+        "0c",
+        "0d",
+        "0e",
+        "0f",
+        "1b",
+        "1c",
+        "1d",
+        "2c",
+        "2d",
+        "3c"
+      ],
+      "all_utilized_sentence_keys": [
+        "0e",
+        "0f",
+        "1c",
+        "1d",
+        "2d"
+      ],
+      "trulens_groundedness": 0.5,
+      "trulens_context_relevance": null,
+      "ragas_faithfulness": 0.8,
+      "ragas_context_relevance": 0.2916666666666667,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.20833333333333334,
+      "gpt35_utilization": 0.20833333333333334,
+      "relevance_score": 0.4583333333333333,
+      "utilization_score": 0.20833333333333334,
+      "completeness_score": 0.45454545454545453
+    },
+    "_domain": "covidqa",
+    "dataset_id": "997"
+  },
+  {
+    "id": "991",
+    "question": "What is the Newcastle disease virus?",
+    "documents": [
+      "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: NDV is an avian paramyxovirus type I which causes a serious disease in chickens and other birds known as ND . NDV outbreaks were first reported in Indonesia, and, subsequently, in Newcastle-upon-Tyne in the year 1926. There have been several panzootics of this disease in poultry and in domestic pigeons during the last four decades . Efforts in controlling the disease involved the development of new vaccines and vaccination protocols .",
+      "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: the interferon regulatory factor IRF-9.",
+      "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: New viruses or variants can cause epidemics and pose huge public health problems and economic losses within a short time.",
+      "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: is transcribed into mRNAs and is translated into viral proteins ."
+    ],
+    "response": "",
+    "context_relevance": 0.45454545454545453,
+    "context_utilization": 0.36363636363636365,
+    "completeness": 0.8,
+    "adherence": 1.0,
+    "_original": {
+      "id": "991",
+      "question": "What is the Newcastle disease virus?",
+      "documents": [
+        "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: NDV is an avian paramyxovirus type I which causes a serious disease in chickens and other birds known as ND . NDV outbreaks were first reported in Indonesia, and, subsequently, in Newcastle-upon-Tyne in the year 1926. There have been several panzootics of this disease in poultry and in domestic pigeons during the last four decades . Efforts in controlling the disease involved the development of new vaccines and vaccination protocols .",
+        "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: the interferon regulatory factor IRF-9.",
+        "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: New viruses or variants can cause epidemics and pose huge public health problems and economic losses within a short time.",
+        "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients\nPassage: is transcribed into mRNAs and is translated into viral proteins ."
+      ],
+      "response": "The Newcastle disease virus is an avian paramyxovirus type I that causes a serious disease in chickens and other birds known as ND. It has caused several outbreaks in poultry and domestic pigeons in the last four decades, leading to the development of new vaccines and vaccination protocols.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients"
+          ],
+          [
+            "0b",
+            "Passage: NDV is an avian paramyxovirus type I which causes a serious disease in chickens and other birds known as ND ."
+          ],
+          [
+            "0c",
+            "NDV outbreaks were first reported in Indonesia, and, subsequently, in Newcastle-upon-Tyne in the year 1926."
+          ],
+          [
+            "0d",
+            "There have been several panzootics of this disease in poultry and in domestic pigeons during the last four decades ."
+          ],
+          [
+            "0e",
+            "Efforts in controlling the disease involved the development of new vaccines and vaccination protocols ."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients"
+          ],
+          [
+            "1b",
+            "Passage: the interferon regulatory factor IRF-9."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients"
+          ],
+          [
+            "2b",
+            "Passage: New viruses or variants can cause epidemics and pose huge public health problems and economic losses within a short time."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Immunobiology of Newcastle Disease Virus and Its Use for Prophylactic Vaccination in Poultry and as Adjuvant for Therapeutic Vaccination in Cancer Patients"
+          ],
+          [
+            "3b",
+            "Passage: is transcribed into mRNAs and is translated into viral proteins ."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The Newcastle disease virus is an avian paramyxovirus type I that causes a serious disease in chickens and other birds known as ND."
+        ],
+        [
+          "b",
+          "It has caused several outbreaks in poultry and domestic pigeons in the last four decades, leading to the development of new vaccines and vaccination protocols."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence is supported by document sentences 0a and 0b, which state that NDV is an avian paramyxovirus type I that causes a serious disease in chickens and other birds known as ND.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0a",
+            "0b"
+          ]
+        },
+        {
+          "explanation": "This sentence is supported by document sentences 0d and 0e, which mention several panzootics in poultry and domestic pigeons over the last four decades, and efforts to control the disease through the development of new vaccines and vaccination protocols.",
+          "fully_supported": true,
+          "response_sentence_key": "b",
+          "supporting_sentence_keys": [
+            "0d",
+            "0e"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response makes two main claims: (a) That Newcastle disease virus is an avian paramyxovirus type I that causes a serious disease in chickens and other birds; (b) That it has caused several outbreaks in poultry and domestic pigeons in the last four decades, leading to the development of new vaccines and vaccination protocols. Each of these claims is fully supported by the text of Document 0. The first sentence is supported by 0b and 0a, while the second sentence is supported by 0d and 0e.",
+      "relevance_explanation": "Document 0 contains useful information on the Newcastle disease virus, detailing that it is an avian paramyxovirus type I and its impact on chickens and other birds. It also discusses outbreaks and the resultant vaccination efforts. Documents 1, 2, and 3 contain passages, but these passages do not provide specific information useful for answering the question about what the Newcastle disease virus is.",
+      "all_relevant_sentence_keys": [
+        "0a",
+        "0b",
+        "0c",
+        "0d",
+        "0e"
+      ],
+      "all_utilized_sentence_keys": [
+        "0a",
+        "0b",
+        "0d",
+        "0e"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": null,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.36363636363636365,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.18181818181818182,
+      "gpt35_utilization": 0.2727272727272727,
+      "relevance_score": 0.45454545454545453,
+      "utilization_score": 0.36363636363636365,
+      "completeness_score": 0.8
+    },
+    "_domain": "covidqa",
+    "dataset_id": "991"
+  },
+  {
+    "id": "429",
+    "question": "What is the size of a flavivirus?",
+    "documents": [
+      "Title: Insect-Specific Flaviviruses: A Systematic Review of Their Discovery, Host Range, Mode of Transmission, Superinfection Exclusion Potential and Genomic Organization\nPassage: All viruses in the genus Flavivirus possess a single-stranded, positive-sense RNA genome of approximately 11 kb . The genome usually encodes a single open reading frame that is flanked by 5' and 3' untranslated regions of ~100 and ~400-700 nt, respectively . The ORF encodes a large polyprotein that is co-and post-translationally cleaved to generate three structural proteins, designated the capsid , premembrane/membrane and envelope proteins, and seven nonstructural proteins in the gene order: 5'-C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-2K-NS4B-NS5-3' . The genomes of some flaviviruses appear to encode an additional protein as a consequence of ribosomal frameshifting as discussed later in this review.",
+      "Title: Viral Interference and Persistence in Mosquito-Borne Flaviviruses\nPassage: Flaviviruses are single stranded-RNA viruses with positive polarity . These viruses are approximately 11 kb in length, with a single open reading frame encoding a polyprotein that is co-and posttranslationally processed 2 Journal of Immunology Research C6/36 Aedes albopictus DENV-2 C6/36 Aedes albopictus JEV C6/36 Aedes albopictus DENV-2 JEV Aal DNV TRA-171",
+      "Title: Vaccines and Therapeutics Against Hantaviruses\nPassage: The diameter of hantavirus particles is 80-US210 nm, and the structure is spherical or ovoid. They are composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA. They are very stable and can survive for more than 18 days at 4 • C and −20 • C and 10 days at room temperature . The genome comprises three negative sense, single-stranded RNAs that consist the small , medium , and large segments that encode the nucleoprotein , envelope glycoproteins , and viral RNA-dependent RNA polymerase , respectively . The outer membrane of hantavirus is composed of Gn and Gc",
+      "Title: Novel Virus Discovery and Genome Reconstruction from Field RNA Samples Reveals Highly Divergent Viruses in Dipteran Hosts\nPassage: We identified an incomplete flavivirus-related sequence in sample 7 . Flaviviruses have non-segmented single-stranded positive-sense RNA genomes of around 11 kb. The flavivirus genome contains a long ORF that is translated as a polyprotein. Structural proteins are encoded at the 5' end of the genome and non-structural proteins are encoded at the 3' end."
+    ],
+    "response": "",
+    "context_relevance": 0.15789473684210525,
+    "context_utilization": 0.15789473684210525,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "429",
+      "question": "What is the size of a flavivirus?",
+      "documents": [
+        "Title: Insect-Specific Flaviviruses: A Systematic Review of Their Discovery, Host Range, Mode of Transmission, Superinfection Exclusion Potential and Genomic Organization\nPassage: All viruses in the genus Flavivirus possess a single-stranded, positive-sense RNA genome of approximately 11 kb . The genome usually encodes a single open reading frame that is flanked by 5' and 3' untranslated regions of ~100 and ~400-700 nt, respectively . The ORF encodes a large polyprotein that is co-and post-translationally cleaved to generate three structural proteins, designated the capsid , premembrane/membrane and envelope proteins, and seven nonstructural proteins in the gene order: 5'-C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-2K-NS4B-NS5-3' . The genomes of some flaviviruses appear to encode an additional protein as a consequence of ribosomal frameshifting as discussed later in this review.",
+        "Title: Viral Interference and Persistence in Mosquito-Borne Flaviviruses\nPassage: Flaviviruses are single stranded-RNA viruses with positive polarity . These viruses are approximately 11 kb in length, with a single open reading frame encoding a polyprotein that is co-and posttranslationally processed 2 Journal of Immunology Research C6/36 Aedes albopictus DENV-2 C6/36 Aedes albopictus JEV C6/36 Aedes albopictus DENV-2 JEV Aal DNV TRA-171",
+        "Title: Vaccines and Therapeutics Against Hantaviruses\nPassage: The diameter of hantavirus particles is 80-US210 nm, and the structure is spherical or ovoid. They are composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA. They are very stable and can survive for more than 18 days at 4 • C and −20 • C and 10 days at room temperature . The genome comprises three negative sense, single-stranded RNAs that consist the small , medium , and large segments that encode the nucleoprotein , envelope glycoproteins , and viral RNA-dependent RNA polymerase , respectively . The outer membrane of hantavirus is composed of Gn and Gc",
+        "Title: Novel Virus Discovery and Genome Reconstruction from Field RNA Samples Reveals Highly Divergent Viruses in Dipteran Hosts\nPassage: We identified an incomplete flavivirus-related sequence in sample 7 . Flaviviruses have non-segmented single-stranded positive-sense RNA genomes of around 11 kb. The flavivirus genome contains a long ORF that is translated as a polyprotein. Structural proteins are encoded at the 5' end of the genome and non-structural proteins are encoded at the 3' end."
+      ],
+      "response": "The size of a flavivirus is approximately 11 kb.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: Insect-Specific Flaviviruses: A Systematic Review of Their Discovery, Host Range, Mode of Transmission, Superinfection Exclusion Potential and Genomic Organization"
+          ],
+          [
+            "0b",
+            "Passage: All viruses in the genus Flavivirus possess a single-stranded, positive-sense RNA genome of approximately 11 kb ."
+          ],
+          [
+            "0c",
+            "The genome usually encodes a single open reading frame that is flanked by 5' and 3' untranslated regions of ~100 and ~400-700 nt, respectively ."
+          ],
+          [
+            "0d",
+            "The ORF encodes a large polyprotein that is co-and post-translationally cleaved to generate three structural proteins, designated the capsid , premembrane/membrane and envelope proteins, and seven nonstructural proteins in the gene order: 5'-C-prM-E-NS1-NS2A-NS2B-NS3-NS4A-2K-NS4B-NS5-3' ."
+          ],
+          [
+            "0e",
+            "The genomes of some flaviviruses appear to encode an additional protein as a consequence of ribosomal frameshifting as discussed later in this review."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Viral Interference and Persistence in Mosquito-Borne Flaviviruses"
+          ],
+          [
+            "1b",
+            "Passage: Flaviviruses are single stranded-RNA viruses with positive polarity ."
+          ],
+          [
+            "1c",
+            "These viruses are approximately 11 kb in length, with a single open reading frame encoding a polyprotein that is co-and posttranslationally processed 2 Journal of Immunology Research C6/36 Aedes albopictus DENV-2 C6/36 Aedes albopictus JEV C6/36 Aedes albopictus DENV-2 JEV Aal DNV TRA-171"
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Vaccines and Therapeutics Against Hantaviruses"
+          ],
+          [
+            "2b",
+            "Passage: The diameter of hantavirus particles is 80-US210 nm, and the structure is spherical or ovoid."
+          ],
+          [
+            "2c",
+            "They are composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA."
+          ],
+          [
+            "2d",
+            "They are very stable and can survive for more than 18 days at 4 • C and −20 • C and 10 days at room temperature ."
+          ],
+          [
+            "2e",
+            "The genome comprises three negative sense, single-stranded RNAs that consist the small , medium , and large segments that encode the nucleoprotein , envelope glycoproteins , and viral RNA-dependent RNA polymerase , respectively ."
+          ],
+          [
+            "2f",
+            "The outer membrane of hantavirus is composed of Gn and Gc"
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Novel Virus Discovery and Genome Reconstruction from Field RNA Samples Reveals Highly Divergent Viruses in Dipteran Hosts"
+          ],
+          [
+            "3b",
+            "Passage: We identified an incomplete flavivirus-related sequence in sample 7 ."
+          ],
+          [
+            "3c",
+            "Flaviviruses have non-segmented single-stranded positive-sense RNA genomes of around 11 kb."
+          ],
+          [
+            "3d",
+            "The flavivirus genome contains a long ORF that is translated as a polyprotein."
+          ],
+          [
+            "3e",
+            "Structural proteins are encoded at the 5' end of the genome and non-structural proteins are encoded at the 3' end."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The size of a flavivirus is approximately 11 kb."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence claims that the size of a flavivirus is approximately 11 kb. This is directly supported by sentences in Document 0 (0b), Document 1 (1b), and Document 3 (3c), all of which mention that the RNA genome of flaviviruses is around 11 kb.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0b",
+            "1b",
+            "3c"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response makes a single claim about the size of a flavivirus RNA genome, stating that it is approximately 11 kb. This claim is directly supported by sentences from Document 0, Document 1, and Document 3. Each of these documents confirms the genome size of flaviviruses as being around 11 kb, thus the response is fully supported.",
+      "relevance_explanation": "Documents 0, 1, and 3 contain useful information for answering the question about the size of a flavivirus. Document 0 provides information on the RNA genome size, which is approximately 11 kb. Document 1 corroborates this by specifying that flaviviruses are single-stranded RNA viruses with lengths of approximately 11 kb. Document 3 also mentions that flaviviruses have non-segmented single-stranded positive-sense RNA genomes of around 11 kb. Document 2, on the other hand, deals with hantaviruses and does not provide relevant information for this question.",
+      "all_relevant_sentence_keys": [
+        "0b",
+        "1b",
+        "3c"
+      ],
+      "all_utilized_sentence_keys": [
+        "0b",
+        "1b",
+        "3c"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.10526315789473684,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.10526315789473684,
+      "gpt35_utilization": 0.10526315789473684,
+      "relevance_score": 0.15789473684210525,
+      "utilization_score": 0.15789473684210525,
+      "completeness_score": 1.0
+    },
+    "_domain": "covidqa",
+    "dataset_id": "429"
+  },
+  {
+    "id": "823",
+    "question": "What was the case fatality rate?",
+    "documents": [
+      "Title: Estimating the number of infections and the impact of non-\nPassage: to the infection fatality ratio.",
+      "Title: Clinical review: Mass casualty triage – pandemic influenza and critical care\nPassage: and case fatality rates during a pandemic, including the potential for more than one wave. The base scenario assumes a clinical attack rate of 25% and a case fatality rate of 0.37%, giving rise to 53,700 excess deaths in the UK. A reasonable worst case scenario involves a cumulative clinical attack rate of 50% with 2.5% case fatality, causing 709,300 excess deaths. Similarly, the US Department of Health and Human Services predicts that in a \"moderate\" scenario based on a virus with 1968-like pathogenicity, 865,000 will require hospitalisation and 65,000 will require ventilation. They also outline a \"severe\" 1918-like scenario",
+      "Title: Tuberculosis mortality: patient characteristics and causes\nPassage: in the USA reported a TB-related case fatality rate of 0.1%, but more severe forms, such as those with extrapulmonary involvement or a poor performance status, were excluded from the study . TB-related mortality rates in some regions of the world were higher than those in our study. Those are regions with more indigenous groups, poor access to health care or a higher MDRTB percentage, such as South Africa , Australia and Russia . We also found that 82.7% of the deaths were due to non-TB-related causes. This is consistent with previous studies that have shown aging and underlying comorbidities",
+      "Title: Economic burden of pneumococcal infections in children under 5 years of age\nPassage: that the mortality rate was 119 per 100,000 and the case-fatality rate was 5% for pneumococcal pneumonia; however, for pneumococcal meningitis, the case-fatality rate was as high as 59% despite the mortality rate of 10 per 100,000. Within the European region identified by WHO, the mortality rate was 25 per 100,000 and the case-fatality rate was 5% for pneumococcal pneumonia, whereas these rates were 3 per 100,000 and 38% , respectively, for pneumococcal meningitis. The differences in quality and accessibility of healthcare services may create differences between countries."
+    ],
+    "response": "",
+    "context_relevance": 0.2777777777777778,
+    "context_utilization": 0.2222222222222222,
+    "completeness": 0.8,
+    "adherence": 1.0,
+    "_original": {
+      "id": "823",
+      "question": "What was the case fatality rate?",
+      "documents": [
+        "Title: Estimating the number of infections and the impact of non-\nPassage: to the infection fatality ratio.",
+        "Title: Clinical review: Mass casualty triage – pandemic influenza and critical care\nPassage: and case fatality rates during a pandemic, including the potential for more than one wave. The base scenario assumes a clinical attack rate of 25% and a case fatality rate of 0.37%, giving rise to 53,700 excess deaths in the UK. A reasonable worst case scenario involves a cumulative clinical attack rate of 50% with 2.5% case fatality, causing 709,300 excess deaths. Similarly, the US Department of Health and Human Services predicts that in a \"moderate\" scenario based on a virus with 1968-like pathogenicity, 865,000 will require hospitalisation and 65,000 will require ventilation. They also outline a \"severe\" 1918-like scenario",
+        "Title: Tuberculosis mortality: patient characteristics and causes\nPassage: in the USA reported a TB-related case fatality rate of 0.1%, but more severe forms, such as those with extrapulmonary involvement or a poor performance status, were excluded from the study . TB-related mortality rates in some regions of the world were higher than those in our study. Those are regions with more indigenous groups, poor access to health care or a higher MDRTB percentage, such as South Africa , Australia and Russia . We also found that 82.7% of the deaths were due to non-TB-related causes. This is consistent with previous studies that have shown aging and underlying comorbidities",
+        "Title: Economic burden of pneumococcal infections in children under 5 years of age\nPassage: that the mortality rate was 119 per 100,000 and the case-fatality rate was 5% for pneumococcal pneumonia; however, for pneumococcal meningitis, the case-fatality rate was as high as 59% despite the mortality rate of 10 per 100,000. Within the European region identified by WHO, the mortality rate was 25 per 100,000 and the case-fatality rate was 5% for pneumococcal pneumonia, whereas these rates were 3 per 100,000 and 38% , respectively, for pneumococcal meningitis. The differences in quality and accessibility of healthcare services may create differences between countries."
+      ],
+      "response": "In the given context, the case fatality rates were:\n\n- 0.37% in the base scenario, and 2.5% in the reasonable worst-case scenario for pandemic influenza.\n- 0.1% for tuberculosis in the USA.\n- 5% for pneumococcal pneumonia and 59% for pneumococcal meningitis in children under 5 years of age.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: Estimating the number of infections and the impact of non-"
+          ],
+          [
+            "0b",
+            "Passage: to the infection fatality ratio."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Clinical review: Mass casualty triage – pandemic influenza and critical care"
+          ],
+          [
+            "1b",
+            "Passage: and case fatality rates during a pandemic, including the potential for more than one wave."
+          ],
+          [
+            "1c",
+            "The base scenario assumes a clinical attack rate of 25% and a case fatality rate of 0.37%, giving rise to 53,700 excess deaths in the UK."
+          ],
+          [
+            "1d",
+            "A reasonable worst case scenario involves a cumulative clinical attack rate of 50% with 2.5% case fatality, causing 709,300 excess deaths."
+          ],
+          [
+            "1e",
+            "Similarly, the US Department of Health and Human Services predicts that in a \"moderate\" scenario based on a virus with 1968-like pathogenicity, 865,000 will require hospitalisation and 65,000 will require ventilation."
+          ],
+          [
+            "1f",
+            "They also outline a \"severe\" 1918-like scenario"
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Tuberculosis mortality: patient characteristics and causes"
+          ],
+          [
+            "2b",
+            "Passage: in the USA reported a TB-related case fatality rate of 0.1%, but more severe forms, such as those with extrapulmonary involvement or a poor performance status, were excluded from the study ."
+          ],
+          [
+            "2c",
+            "TB-related mortality rates in some regions of the world were higher than those in our study."
+          ],
+          [
+            "2d",
+            "Those are regions with more indigenous groups, poor access to health care or a higher MDRTB percentage, such as South Africa , Australia and Russia ."
+          ],
+          [
+            "2e",
+            "We also found that 82.7% of the deaths were due to non-TB-related causes."
+          ],
+          [
+            "2f",
+            "This is consistent with previous studies that have shown aging and underlying comorbidities"
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Economic burden of pneumococcal infections in children under 5 years of age"
+          ],
+          [
+            "3b",
+            "Passage: that the mortality rate was 119 per 100,000 and the case-fatality rate was 5% for pneumococcal pneumonia; however, for pneumococcal meningitis, the case-fatality rate was as high as 59% despite the mortality rate of 10 per 100,000."
+          ],
+          [
+            "3c",
+            "Within the European region identified by WHO, the mortality rate was 25 per 100,000 and the case-fatality rate was 5% for pneumococcal pneumonia, whereas these rates were 3 per 100,000 and 38% , respectively, for pneumococcal meningitis."
+          ],
+          [
+            "3d",
+            "The differences in quality and accessibility of healthcare services may create differences between countries."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "In the given context, the case fatality rates were:"
+        ],
+        [
+          "b",
+          "- 0.37% in the base scenario, and 2.5% in the reasonable worst-case scenario for pandemic influenza."
+        ],
+        [
+          "c",
+          "- 0.1% for tuberculosis in the USA."
+        ],
+        [
+          "d",
+          "- 5% for pneumococcal pneumonia and 59% for pneumococcal meningitis in children under 5 years of age."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This is an introductory sentence summarizing the context for the following detailed response. It is supported by the relevance and cumulative information provided in the documents.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "supported_without_sentence"
+          ]
+        },
+        {
+          "explanation": "This sentence mentions the case fatality rates for pandemic influenza: 0.37% in the base scenario, and 2.5% in the reasonable worst-case scenario. These figures are supported by sentences 1c and 1d from Document 1.",
+          "fully_supported": true,
+          "response_sentence_key": "b",
+          "supporting_sentence_keys": [
+            "1c",
+            "1d"
+          ]
+        },
+        {
+          "explanation": "This sentence states the case fatality rate for tuberculosis in the USA as 0.1%, which is supported by sentence 2b from Document 2.",
+          "fully_supported": true,
+          "response_sentence_key": "c",
+          "supporting_sentence_keys": [
+            "2b"
+          ]
+        },
+        {
+          "explanation": "This sentence mentions case fatality rates for pneumococcal infections: 5% for pneumococcal pneumonia and 59% for pneumococcal meningitis in children under 5 years of age. These figures are supported by sentence 3b from Document 3.",
+          "fully_supported": true,
+          "response_sentence_key": "d",
+          "supporting_sentence_keys": [
+            "3b"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "Each sentence in the response is supported by specific sentences from the documents: \n- The claim about the 0.37% and 2.5% case fatality rates for pandemic influenza is supported by sentences from Document 1.\n- The claim about the 0.1% case fatality rate for tuberculosis in the USA is supported by sentences from Document 2.\n- The claims about the 5% and 59% case fatality rates for pneumococcal pneumonia and pneumococcal meningitis respectively are supported by sentences from Document 3.",
+      "relevance_explanation": "Documents 1, 2, and 3 contain useful information for answering the question about the case fatality rate. Document 1 provides details about the case fatality rate in different scenarios for pandemic influenza. Document 2 informs about the case fatality rate for tuberculosis in the USA. Document 3 gives information about the case fatality rates for pneumococcal pneumonia and pneumococcal meningitis in children under 5 years of age.",
+      "all_relevant_sentence_keys": [
+        "1b",
+        "1c",
+        "1d",
+        "2b",
+        "3b"
+      ],
+      "all_utilized_sentence_keys": [
+        "1c",
+        "1d",
+        "2b",
+        "3b"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 0.8,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.2777777777777778,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.3333333333333333,
+      "gpt35_utilization": 0.2777777777777778,
+      "relevance_score": 0.2777777777777778,
+      "utilization_score": 0.2222222222222222,
+      "completeness_score": 0.8
+    },
+    "_domain": "covidqa",
+    "dataset_id": "823"
+  },
+  {
+    "id": "1227",
+    "question": "Which may be an occupational group with significantly higher incidence of seropositivity to MERS-CoV ?",
+    "documents": [
+      "Title: MERS coronavirus: diagnostics, epidemiology and transmission\nPassage: DCs, may be an occupational group with significantly higher incidence of seropositivity to MERS-CoV when animals have active MERS-CoV infections . Expanded virological investigations of African DCs may lead to more seropositive animals and geographic areas in which humans may be at risk. It is possible that there are areas where humans already harbour MERS-CoV infections that have not been identified because of an absence of laboratory surveillance. Virological investigations of bats may lead to findings of ancestral viruses and viral 'missing links' and identifying any other animal sources of zoonotic spread is important to inform options for reducing human",
+      "Title: MERS coronavirus: diagnostics, epidemiology and transmission\nPassage: donors and 300 selfidentified animal workers from the Jazan Region of the KSA during 2012 . Similarly, a study of four herdsmen in contact with an infected DC herd in Al-Ahsa, eight people who had intermittent contact with the herd, 30 veterinary surgeons and support staff who were not exposed to the herd, three unprotected abattoir workers in Al-Ahsa and 146 controls who were not exposed to DCs in any professional role, found none with serological evidence of past MERS-CoV infection using the ppNT assay . A delay in the neutralizing antibody response to MERS-CoV infection was associated with increased",
+      "Title: Demographic Variations of MERS-CoV Infection among Suspected and Confirmed Cases: An Epidemiological Analysis of Laboratory-Based Data from Riyadh Regional Laboratory\nPassage: Among confirmed cases, only 25.2% were healthcare workers, whereas around 75% were non-healthcare workers.",
+      "Title: MERS coronavirus: diagnostics, epidemiology and transmission\nPassage: As a group, HCWs comprised 16 % of MERS cases in the KSA and South Korea. It is apparent that the weekly proportion of infected HCWs increases alongside each steep rise in overall detections . In May 2013, the WHO published guidelines for IPC during care of probable or confirmed cases of MERS-CoV infection in a healthcare setting . This is explainable because to date, each case rise has been intimately associated with healthcare-facility related outbreaks . These rises in MERS-CoV detections can decrease the average age during each event because HCWs are usually younger than inpatients with MERS. Healthcare"
+    ],
+    "response": "",
+    "context_relevance": 0.058823529411764705,
+    "context_utilization": 0.058823529411764705,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "1227",
+      "question": "Which may be an occupational group with significantly higher incidence of seropositivity to MERS-CoV ?",
+      "documents": [
+        "Title: MERS coronavirus: diagnostics, epidemiology and transmission\nPassage: DCs, may be an occupational group with significantly higher incidence of seropositivity to MERS-CoV when animals have active MERS-CoV infections . Expanded virological investigations of African DCs may lead to more seropositive animals and geographic areas in which humans may be at risk. It is possible that there are areas where humans already harbour MERS-CoV infections that have not been identified because of an absence of laboratory surveillance. Virological investigations of bats may lead to findings of ancestral viruses and viral 'missing links' and identifying any other animal sources of zoonotic spread is important to inform options for reducing human",
+        "Title: MERS coronavirus: diagnostics, epidemiology and transmission\nPassage: donors and 300 selfidentified animal workers from the Jazan Region of the KSA during 2012 . Similarly, a study of four herdsmen in contact with an infected DC herd in Al-Ahsa, eight people who had intermittent contact with the herd, 30 veterinary surgeons and support staff who were not exposed to the herd, three unprotected abattoir workers in Al-Ahsa and 146 controls who were not exposed to DCs in any professional role, found none with serological evidence of past MERS-CoV infection using the ppNT assay . A delay in the neutralizing antibody response to MERS-CoV infection was associated with increased",
+        "Title: Demographic Variations of MERS-CoV Infection among Suspected and Confirmed Cases: An Epidemiological Analysis of Laboratory-Based Data from Riyadh Regional Laboratory\nPassage: Among confirmed cases, only 25.2% were healthcare workers, whereas around 75% were non-healthcare workers.",
+        "Title: MERS coronavirus: diagnostics, epidemiology and transmission\nPassage: As a group, HCWs comprised 16 % of MERS cases in the KSA and South Korea. It is apparent that the weekly proportion of infected HCWs increases alongside each steep rise in overall detections . In May 2013, the WHO published guidelines for IPC during care of probable or confirmed cases of MERS-CoV infection in a healthcare setting . This is explainable because to date, each case rise has been intimately associated with healthcare-facility related outbreaks . These rises in MERS-CoV detections can decrease the average age during each event because HCWs are usually younger than inpatients with MERS. Healthcare"
+      ],
+      "response": "DCs (dromedary camels) may be an occupational group with significantly higher incidence of seropositivity to MERS-CoV.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: MERS coronavirus: diagnostics, epidemiology and transmission"
+          ],
+          [
+            "0b",
+            "Passage: DCs, may be an occupational group with significantly higher incidence of seropositivity to MERS-CoV when animals have active MERS-CoV infections ."
+          ],
+          [
+            "0c",
+            "Expanded virological investigations of African DCs may lead to more seropositive animals and geographic areas in which humans may be at risk."
+          ],
+          [
+            "0d",
+            "It is possible that there are areas where humans already harbour MERS-CoV infections that have not been identified because of an absence of laboratory surveillance."
+          ],
+          [
+            "0e",
+            "Virological investigations of bats may lead to findings of ancestral viruses and viral 'missing links' and identifying any other animal sources of zoonotic spread is important to inform options for reducing human"
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: MERS coronavirus: diagnostics, epidemiology and transmission"
+          ],
+          [
+            "1b",
+            "Passage: donors and 300 selfidentified animal workers from the Jazan Region of the KSA during 2012 ."
+          ],
+          [
+            "1c",
+            "Similarly, a study of four herdsmen in contact with an infected DC herd in Al-Ahsa, eight people who had intermittent contact with the herd, 30 veterinary surgeons and support staff who were not exposed to the herd, three unprotected abattoir workers in Al-Ahsa and 146 controls who were not exposed to DCs in any professional role, found none with serological evidence of past MERS-CoV infection using the ppNT assay ."
+          ],
+          [
+            "1d",
+            "A delay in the neutralizing antibody response to MERS-CoV infection was associated with increased"
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Demographic Variations of MERS-CoV Infection among Suspected and Confirmed Cases: An Epidemiological Analysis of Laboratory-Based Data from Riyadh Regional Laboratory"
+          ],
+          [
+            "2b",
+            "Passage: Among confirmed cases, only 25.2% were healthcare workers, whereas around 75% were non-healthcare workers."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: MERS coronavirus: diagnostics, epidemiology and transmission"
+          ],
+          [
+            "3b",
+            "Passage: As a group, HCWs comprised 16 % of MERS cases in the KSA and South Korea."
+          ],
+          [
+            "3c",
+            "It is apparent that the weekly proportion of infected HCWs increases alongside each steep rise in overall detections ."
+          ],
+          [
+            "3d",
+            "In May 2013, the WHO published guidelines for IPC during care of probable or confirmed cases of MERS-CoV infection in a healthcare setting ."
+          ],
+          [
+            "3e",
+            "This is explainable because to date, each case rise has been intimately associated with healthcare-facility related outbreaks ."
+          ],
+          [
+            "3f",
+            "These rises in MERS-CoV detections can decrease the average age during each event because HCWs are usually younger than inpatients with MERS. Healthcare"
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "DCs (dromedary camels) may be an occupational group with significantly higher incidence of seropositivity to MERS-CoV."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence is supported by the provided documents. Document 0, sentence '0b' explicitly states that DCs may have a significantly higher incidence of seropositivity to MERS-CoV when animals have active infections.",
+          "fully_supported": true,
+          "response_sentence_key": "a.",
+          "supporting_sentence_keys": [
+            "0b"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response makes a single claim that DCs (dromedary camels) may be an occupational group with a significantly higher incidence of seropositivity to MERS-CoV. This claim is directly supported by sentence '0b' in Document 0, which mentions that DCs may have a significantly higher incidence of seropositivity to MERS-CoV when animals have active infections.",
+      "relevance_explanation": "Document 0 contains useful information as it discusses the incidence of seropositivity to MERS-CoV among certain groups, particularly mentioning dromedary camels (DCs) as having a higher incidence. Other documents discuss general statistics and incidents of MERS-CoV but do not specifically address occupational groups with higher seropositivity rates.",
+      "all_relevant_sentence_keys": [
+        "0b"
+      ],
+      "all_utilized_sentence_keys": [
+        "0b"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 0.8,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.1111111111111111,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.11764705882352941,
+      "gpt35_utilization": 0.11764705882352941,
+      "relevance_score": 0.058823529411764705,
+      "utilization_score": 0.058823529411764705,
+      "completeness_score": 1.0
+    },
+    "_domain": "covidqa",
+    "dataset_id": "1227"
+  },
+  {
+    "id": "973",
+    "question": "What is the advantage of AAV vector?",
+    "documents": [
+      "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: AAV vector systems have a number of engaging properties. The wild type viruses are non-pathogenic and replication incompetent in humans and the recombinant AAV vector systems are even further attenuated . As members of the parvovirus family, AAVs are small non-enveloped viruses that are stable and amenable to long-term storage without a cold chain. While there is limited preexisting immunity, availability of non-human strains as vaccine candidates eliminates these concerns. Modifications to the vector have increased immunogenicity, as well .",
+      "Title: Viral vector-based influenza vaccines\nPassage: Adeno-associated virus is a parvovirus that is replication-deficient in humans. Like adenovirus, AAV has a broad cell, tissue and host tropism and therefore is a potential good vector vaccine. 218 However, drawbacks of using AAV include: limited capacity for transgenes, presence of pre-existing immunity in humans and the technical challenge of producing high titer stocks. Initially, AAV was not explored as a vaccine vector as it was considered to be poorly immunogenic, however vaccination studies in mice showed that AAV-2 expressing an HSV-2 glycoprotein was immunogenic and a potent inducer of Tcell and antibody responses, 219 and currently modifications are",
+      "Title: Viral vector-based influenza vaccines\nPassage: being made to AAV to increase immunogenicity. 220 A limited number of studies evaluating AAV as a vector for influenza vaccination has been performed . Initially, an AAV expressing the HA gene or NP gene was shown to be protective in mice. 221, 222 A more recent study tested AAV vaccines expressing the HA, NP or M1 genes of H1N1pdm09 in mice. Whereas AAV-HA afforded full protection from H1N1pdm09 infection, AAV-NP protected mice partially and AAV-M1 did not afford protection. Simultaneous vaccination with all 3 constructs afforded protection from homologous challenge infection. 223 Recently, in an alternative vaccination approach, AAV",
+      "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: Adeno-associated viruses were first explored as gene therapy vectors. Like rAd vectors, rAAV have broad tropism infecting a variety of hosts, tissues, and proliferating and non-proliferating cell types . AAVs had been generally not considered as vaccine vectors because they were widely considered to be poorly immunogenic. A seminal study using AAV-2 to express a HSV-2 glycoprotein showed this virus vaccine vector effectively induced potent CD8 + T cell and serum antibody responses, thereby opening the door to other rAAV vaccine-associated studies ."
+    ],
+    "response": "",
+    "context_relevance": 0.4166666666666667,
+    "context_utilization": 0.25,
+    "completeness": 0.6,
+    "adherence": 1.0,
+    "_original": {
+      "id": "973",
+      "question": "What is the advantage of AAV vector?",
+      "documents": [
+        "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: AAV vector systems have a number of engaging properties. The wild type viruses are non-pathogenic and replication incompetent in humans and the recombinant AAV vector systems are even further attenuated . As members of the parvovirus family, AAVs are small non-enveloped viruses that are stable and amenable to long-term storage without a cold chain. While there is limited preexisting immunity, availability of non-human strains as vaccine candidates eliminates these concerns. Modifications to the vector have increased immunogenicity, as well .",
+        "Title: Viral vector-based influenza vaccines\nPassage: Adeno-associated virus is a parvovirus that is replication-deficient in humans. Like adenovirus, AAV has a broad cell, tissue and host tropism and therefore is a potential good vector vaccine. 218 However, drawbacks of using AAV include: limited capacity for transgenes, presence of pre-existing immunity in humans and the technical challenge of producing high titer stocks. Initially, AAV was not explored as a vaccine vector as it was considered to be poorly immunogenic, however vaccination studies in mice showed that AAV-2 expressing an HSV-2 glycoprotein was immunogenic and a potent inducer of Tcell and antibody responses, 219 and currently modifications are",
+        "Title: Viral vector-based influenza vaccines\nPassage: being made to AAV to increase immunogenicity. 220 A limited number of studies evaluating AAV as a vector for influenza vaccination has been performed . Initially, an AAV expressing the HA gene or NP gene was shown to be protective in mice. 221, 222 A more recent study tested AAV vaccines expressing the HA, NP or M1 genes of H1N1pdm09 in mice. Whereas AAV-HA afforded full protection from H1N1pdm09 infection, AAV-NP protected mice partially and AAV-M1 did not afford protection. Simultaneous vaccination with all 3 constructs afforded protection from homologous challenge infection. 223 Recently, in an alternative vaccination approach, AAV",
+        "Title: Virus-Vectored Influenza Virus Vaccines\nPassage: Adeno-associated viruses were first explored as gene therapy vectors. Like rAd vectors, rAAV have broad tropism infecting a variety of hosts, tissues, and proliferating and non-proliferating cell types . AAVs had been generally not considered as vaccine vectors because they were widely considered to be poorly immunogenic. A seminal study using AAV-2 to express a HSV-2 glycoprotein showed this virus vaccine vector effectively induced potent CD8 + T cell and serum antibody responses, thereby opening the door to other rAAV vaccine-associated studies ."
+      ],
+      "response": "The advantage of AAV vector is that the wild type viruses are non-pathogenic and replication incompetent in humans and the recombinant AAV vector systems are even further attenuated. They are also stable and amenable to long-term storage without a cold chain and have limited preexisting immunity. Additionally, modifications to the vector have increased immunogenicity.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: Virus-Vectored Influenza Virus Vaccines"
+          ],
+          [
+            "0b",
+            "Passage: AAV vector systems have a number of engaging properties."
+          ],
+          [
+            "0c",
+            "The wild type viruses are non-pathogenic and replication incompetent in humans and the recombinant AAV vector systems are even further attenuated ."
+          ],
+          [
+            "0d",
+            "As members of the parvovirus family, AAVs are small non-enveloped viruses that are stable and amenable to long-term storage without a cold chain."
+          ],
+          [
+            "0e",
+            "While there is limited preexisting immunity, availability of non-human strains as vaccine candidates eliminates these concerns."
+          ],
+          [
+            "0f",
+            "Modifications to the vector have increased immunogenicity, as well ."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Viral vector-based influenza vaccines"
+          ],
+          [
+            "1b",
+            "Passage: Adeno-associated virus is a parvovirus that is replication-deficient in humans."
+          ],
+          [
+            "1c",
+            "Like adenovirus, AAV has a broad cell, tissue and host tropism and therefore is a potential good vector vaccine."
+          ],
+          [
+            "1d",
+            "218 However, drawbacks of using AAV include: limited capacity for transgenes, presence of pre-existing immunity in humans and the technical challenge of producing high titer stocks."
+          ],
+          [
+            "1e",
+            "Initially, AAV was not explored as a vaccine vector as it was considered to be poorly immunogenic, however vaccination studies in mice showed that AAV-2 expressing an HSV-2 glycoprotein was immunogenic and a potent inducer of Tcell and antibody responses, 219 and currently modifications are"
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Viral vector-based influenza vaccines"
+          ],
+          [
+            "2b",
+            "Passage: being made to AAV to increase immunogenicity."
+          ],
+          [
+            "2c",
+            "220 A limited number of studies evaluating AAV as a vector for influenza vaccination has been performed ."
+          ],
+          [
+            "2d",
+            "Initially, an AAV expressing the HA gene or NP gene was shown to be protective in mice."
+          ],
+          [
+            "2e",
+            "221, 222 A more recent study tested AAV vaccines expressing the HA, NP or M1 genes of H1N1pdm09 in mice."
+          ],
+          [
+            "2f",
+            "Whereas AAV-HA afforded full protection from H1N1pdm09 infection, AAV-NP protected mice partially and AAV-M1 did not afford protection."
+          ],
+          [
+            "2g",
+            "Simultaneous vaccination with all 3 constructs afforded protection from homologous challenge infection."
+          ],
+          [
+            "2h",
+            "223 Recently, in an alternative vaccination approach, AAV"
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Virus-Vectored Influenza Virus Vaccines"
+          ],
+          [
+            "3b",
+            "Passage: Adeno-associated viruses were first explored as gene therapy vectors."
+          ],
+          [
+            "3c",
+            "Like rAd vectors, rAAV have broad tropism infecting a variety of hosts, tissues, and proliferating and non-proliferating cell types ."
+          ],
+          [
+            "3d",
+            "AAVs had been generally not considered as vaccine vectors because they were widely considered to be poorly immunogenic."
+          ],
+          [
+            "3e",
+            "A seminal study using AAV-2 to express a HSV-2 glycoprotein showed this virus vaccine vector effectively induced potent CD8 + T cell and serum antibody responses, thereby opening the door to other rAAV vaccine-associated studies ."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The advantage of AAV vector is that the wild type viruses are non-pathogenic and replication incompetent in humans and the recombinant AAV vector systems are even further attenuated."
+        ],
+        [
+          "b",
+          "They are also stable and amenable to long-term storage without a cold chain and have limited preexisting immunity."
+        ],
+        [
+          "c",
+          "Additionally, modifications to the vector have increased immunogenicity."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence is supported by information in documents 0 and 1, which discuss the non-pathogenic and replication-incompetent nature of AAV in humans.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0c",
+            "1b"
+          ]
+        },
+        {
+          "explanation": "This sentence is supported by documents 0 and 1, which mention the stability and storage properties of AAV as well as the aspect of limited pre-existing immunity.",
+          "fully_supported": true,
+          "response_sentence_key": "b",
+          "supporting_sentence_keys": [
+            "0d",
+            "0e"
+          ]
+        },
+        {
+          "explanation": "The sentence is supported by documents 0 and 2, which discuss modifications to AAV vectors that have increased their immunogenicity.",
+          "fully_supported": true,
+          "response_sentence_key": "c",
+          "supporting_sentence_keys": [
+            "0f",
+            "2b"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response provides a coherent summary of the advantages of AAV vectors, supporting the claims with specific details from the documents. Each claim regarding non-pathogenicity, stability, limited pre-existing immunity, and increased immunogenicity is well-supported by the information in the provided documents.",
+      "relevance_explanation": "Documents 0, 1, 2, and 3 all contain useful information for answering the question about the advantages of AAV vectors. They discuss various aspects such as the non-pathogenic nature of the virus, its stability and long-term storage, limited pre-existing immunity, and modifications to increase immunogenicity.",
+      "all_relevant_sentence_keys": [
+        "0c",
+        "0d",
+        "0e",
+        "0f",
+        "1b",
+        "1d",
+        "2b",
+        "2c",
+        "2e",
+        "3d"
+      ],
+      "all_utilized_sentence_keys": [
+        "0c",
+        "0d",
+        "0e",
+        "0f",
+        "1b",
+        "2b"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": null,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.5833333333333334,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.25,
+      "gpt35_utilization": 0.25,
+      "relevance_score": 0.4166666666666667,
+      "utilization_score": 0.25,
+      "completeness_score": 0.6
+    },
+    "_domain": "covidqa",
+    "dataset_id": "973"
+  },
+  {
+    "id": "677",
+    "question": "When was the first case of COVID-19 identified?",
+    "documents": [
+      "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: A cluster of pneumonia of unknown origin was identified in Wuhan, China, in December 2019 . On 12 January 2020, Chinese authorities shared the sequence of a novel coronavirus termed severe acute respiratory syndrome coronavirus 2 isolated from some clustered cases . Since then, the disease caused by SARS-CoV-2 has been named coronavirus disease 2019 . As at 21 February 2020, the virus had spread rapidly mostly within China but also to 28 other countries, including in the World Health Organization European Region .",
+      "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: Text: In the WHO European Region, COVID-19 surveillance was implemented 27 January 2020. We detail the first European cases. As at 21 February, nine European countries reported 47 cases. Among 38 cases studied, 21 were linked to two clusters in Germany and France, 14 were infected in China. Median case age was 42 years; 25 were male. Late detection of the clusters' index cases delayed isolation of further local cases. As at 5 March, there were 4,250 cases.",
+      "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: Abstract: In the WHO European Region, COVID-19 surveillance was implemented 27 January 2020. We detail the first European cases. As at 21 February, nine European countries reported 47 cases. Among 38 cases studied, 21 were linked to two clusters in Germany and France, 14 were infected in China. Median case age was 42 years; 25 were male. Late detection of the clusters’ index cases delayed isolation of further local cases. As at 5 March, there were 4,250 cases.",
+      "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: All of the imported cases had a history of travel to China. This was consistent with the epidemiological situation in Asia, and supported the recommendation for testing of suspected cases with travel history to China and potentially other areas of presumed ongoing community transmission. The situation has evolved rapidly since then, however, and the number of countries reporting COVID-19 transmission increased rapidly, notably with a large outbreak in northern Italy with 3,089 cases reported as at 5 March . Testing of suspected cases based on geographical risk of importation needs to be complemented with additional approaches to ensure early detection"
+    ],
+    "response": "",
+    "context_relevance": 0.2692307692307692,
+    "context_utilization": 0.07692307692307693,
+    "completeness": 0.2857142857142857,
+    "adherence": 1.0,
+    "_original": {
+      "id": "677",
+      "question": "When was the first case of COVID-19 identified?",
+      "documents": [
+        "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: A cluster of pneumonia of unknown origin was identified in Wuhan, China, in December 2019 . On 12 January 2020, Chinese authorities shared the sequence of a novel coronavirus termed severe acute respiratory syndrome coronavirus 2 isolated from some clustered cases . Since then, the disease caused by SARS-CoV-2 has been named coronavirus disease 2019 . As at 21 February 2020, the virus had spread rapidly mostly within China but also to 28 other countries, including in the World Health Organization European Region .",
+        "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: Text: In the WHO European Region, COVID-19 surveillance was implemented 27 January 2020. We detail the first European cases. As at 21 February, nine European countries reported 47 cases. Among 38 cases studied, 21 were linked to two clusters in Germany and France, 14 were infected in China. Median case age was 42 years; 25 were male. Late detection of the clusters' index cases delayed isolation of further local cases. As at 5 March, there were 4,250 cases.",
+        "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: Abstract: In the WHO European Region, COVID-19 surveillance was implemented 27 January 2020. We detail the first European cases. As at 21 February, nine European countries reported 47 cases. Among 38 cases studied, 21 were linked to two clusters in Germany and France, 14 were infected in China. Median case age was 42 years; 25 were male. Late detection of the clusters’ index cases delayed isolation of further local cases. As at 5 March, there were 4,250 cases.",
+        "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020\nPassage: All of the imported cases had a history of travel to China. This was consistent with the epidemiological situation in Asia, and supported the recommendation for testing of suspected cases with travel history to China and potentially other areas of presumed ongoing community transmission. The situation has evolved rapidly since then, however, and the number of countries reporting COVID-19 transmission increased rapidly, notably with a large outbreak in northern Italy with 3,089 cases reported as at 5 March . Testing of suspected cases based on geographical risk of importation needs to be complemented with additional approaches to ensure early detection"
+      ],
+      "response": "The first cases of COVID-19 were identified in the WHO European Region between 24 January and 21 February 2020.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020"
+          ],
+          [
+            "0b",
+            "Passage: A cluster of pneumonia of unknown origin was identified in Wuhan, China, in December 2019 ."
+          ],
+          [
+            "0c",
+            "On 12 January 2020, Chinese authorities shared the sequence of a novel coronavirus termed severe acute respiratory syndrome coronavirus 2 isolated from some clustered cases ."
+          ],
+          [
+            "0d",
+            "Since then, the disease caused by SARS-CoV-2 has been named coronavirus disease 2019 ."
+          ],
+          [
+            "0e",
+            "As at 21 February 2020, the virus had spread rapidly mostly within China but also to 28 other countries, including in the World Health Organization European Region ."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020"
+          ],
+          [
+            "1b",
+            "Passage: Text: In the WHO European Region, COVID-19 surveillance was implemented 27 January 2020."
+          ],
+          [
+            "1c",
+            "We detail the first European cases."
+          ],
+          [
+            "1d",
+            "As at 21 February, nine European countries reported 47 cases."
+          ],
+          [
+            "1e",
+            "Among 38 cases studied, 21 were linked to two clusters in Germany and France, 14 were infected in China."
+          ],
+          [
+            "1f",
+            "Median case age was 42 years; 25 were male."
+          ],
+          [
+            "1g",
+            "Late detection of the clusters' index cases delayed isolation of further local cases."
+          ],
+          [
+            "1h",
+            "As at 5 March, there were 4,250 cases."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020"
+          ],
+          [
+            "2b",
+            "Passage: Abstract: In the WHO European Region, COVID-19 surveillance was implemented 27 January 2020."
+          ],
+          [
+            "2c",
+            "We detail the first European cases."
+          ],
+          [
+            "2d",
+            "As at 21 February, nine European countries reported 47 cases."
+          ],
+          [
+            "2e",
+            "Among 38 cases studied, 21 were linked to two clusters in Germany and France, 14 were infected in China."
+          ],
+          [
+            "2f",
+            "Median case age was 42 years; 25 were male."
+          ],
+          [
+            "2g",
+            "Late detection of the clusters’ index cases delayed isolation of further local cases."
+          ],
+          [
+            "2h",
+            "As at 5 March, there were 4,250 cases."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: First cases of coronavirus disease 2019 (COVID-19) in the WHO European Region, 24 January to 21 February 2020"
+          ],
+          [
+            "3b",
+            "Passage: All of the imported cases had a history of travel to China."
+          ],
+          [
+            "3c",
+            "This was consistent with the epidemiological situation in Asia, and supported the recommendation for testing of suspected cases with travel history to China and potentially other areas of presumed ongoing community transmission."
+          ],
+          [
+            "3d",
+            "The situation has evolved rapidly since then, however, and the number of countries reporting COVID-19 transmission increased rapidly, notably with a large outbreak in northern Italy with 3,089 cases reported as at 5 March ."
+          ],
+          [
+            "3e",
+            "Testing of suspected cases based on geographical risk of importation needs to be complemented with additional approaches to ensure early detection"
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The first cases of COVID-19 were identified in the WHO European Region between 24 January and 21 February 2020."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence claims that the first cases of COVID-19 were identified in the WHO European Region between 24 January and 21 February 2020. This is supported by sentences 1d and 2d, which mention the first cases in the European region and the state of cases as of 21 February.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "1d",
+            "2d"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response claims that the first cases of COVID-19 in the WHO European Region were identified between 24 January and 21 February 2020. This claim is directly supported by Document 1 (sentence 1c), Document 2 (sentence 2c), and partially by the general context provided by Documents 0 and 3.",
+      "relevance_explanation": "Documents 0, 1, 2, and 3 contain useful information for answering the question regarding the first identification of COVID-19 cases. Specifically, Document 0 outlines the initial cases identified in Wuhan, China, in December 2019, and refers to the spread to other countries by 21 February 2020. Documents 1, 2, and 3 provide details about the first cases in the WHO European Region, with specific dates such as 24 January 2020 for the initial cases and as of 21 February 2020 for reported cases.",
+      "all_relevant_sentence_keys": [
+        "0b",
+        "0e",
+        "1d",
+        "1e",
+        "2d",
+        "2e",
+        "3d"
+      ],
+      "all_utilized_sentence_keys": [
+        "1d",
+        "2d"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 0.9,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.4230769230769231,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.2692307692307692,
+      "gpt35_utilization": 0.11538461538461539,
+      "relevance_score": 0.2692307692307692,
+      "utilization_score": 0.07692307692307693,
+      "completeness_score": 0.2857142857142857
+    },
+    "_domain": "covidqa",
+    "dataset_id": "677"
+  },
+  {
+    "id": "1468",
+    "question": "What is the structure of Hantaan virus?",
+    "documents": [
+      "Title: Vaccines and Therapeutics Against Hantaviruses\nPassage: The diameter of hantavirus particles is 80-US210 nm, and the structure is spherical or ovoid. They are composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA. They are very stable and can survive for more than 18 days at 4 • C and −20 • C and 10 days at room temperature . The genome comprises three negative sense, single-stranded RNAs that consist the small , medium , and large segments that encode the nucleoprotein , envelope glycoproteins , and viral RNA-dependent RNA polymerase , respectively . The outer membrane of hantavirus is composed of Gn and Gc",
+      "Title: Vaccines and Therapeutics Against Hantaviruses\nPassage: glycoprotein, which mediates the recognition of and entry into host cells. The crystal structure of HTNV Gn is very similar to that of PUUV Gn, which confirms that hantavirus Gn is conserved in hantavirus .",
+      "Title: Complete Genome and Phylogeny of Puumala Hantavirus Isolates Circulating in France\nPassage: negative polarity: S segment codes for the nucleocapsid protein and a small non-structural s protein in several viral species; M segment for the glycoprotein precursor of the envelope glycoproteins Gn and Gc; and L segment for the RNA-dependent RNA polymerase . Each hantavirus is predominantly associated with one or a few distinct mammal species and this stable virus-host association underscore the importance of host-related factors for understanding current distribution, evolution and epidemiology and mechanisms of emergence.",
+      "Title: Novel Identified HLA-A*0201-Restricted Hantaan Virus Glycoprotein Cytotoxic T-Cell Epitopes Could Effectively Induce Protective Responses in HLA-A2.1/K(b) Transgenic Mice May Associate with the Severity of Hemorrhagic Fever with Renal Syndrome\nPassage: Hantaan virus antigens in the supernatants of the tissue samples of Tg mice were detected by sandwich ELISA. The anti-HTNV NP mAb 1A8 was prepared in the Department of Microbiology of our university. The mAb 1A8 was used as the coating antibody, and the horseradish peroxidase-conjugated mAb 1A8 was used as the detecting antibody . The supernatants of normal tissue were used as negative controls. First, add 100 µL prepared supernatants to duplicate wells and incubate for 2 h at 37°C. Next, remove the supernatants and wash three times. Then, add 100 µL detecting antibody to each well and incubate"
+    ],
+    "response": "",
+    "context_relevance": 0.3,
+    "context_utilization": 0.3,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "1468",
+      "question": "What is the structure of Hantaan virus?",
+      "documents": [
+        "Title: Vaccines and Therapeutics Against Hantaviruses\nPassage: The diameter of hantavirus particles is 80-US210 nm, and the structure is spherical or ovoid. They are composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA. They are very stable and can survive for more than 18 days at 4 • C and −20 • C and 10 days at room temperature . The genome comprises three negative sense, single-stranded RNAs that consist the small , medium , and large segments that encode the nucleoprotein , envelope glycoproteins , and viral RNA-dependent RNA polymerase , respectively . The outer membrane of hantavirus is composed of Gn and Gc",
+        "Title: Vaccines and Therapeutics Against Hantaviruses\nPassage: glycoprotein, which mediates the recognition of and entry into host cells. The crystal structure of HTNV Gn is very similar to that of PUUV Gn, which confirms that hantavirus Gn is conserved in hantavirus .",
+        "Title: Complete Genome and Phylogeny of Puumala Hantavirus Isolates Circulating in France\nPassage: negative polarity: S segment codes for the nucleocapsid protein and a small non-structural s protein in several viral species; M segment for the glycoprotein precursor of the envelope glycoproteins Gn and Gc; and L segment for the RNA-dependent RNA polymerase . Each hantavirus is predominantly associated with one or a few distinct mammal species and this stable virus-host association underscore the importance of host-related factors for understanding current distribution, evolution and epidemiology and mechanisms of emergence.",
+        "Title: Novel Identified HLA-A*0201-Restricted Hantaan Virus Glycoprotein Cytotoxic T-Cell Epitopes Could Effectively Induce Protective Responses in HLA-A2.1/K(b) Transgenic Mice May Associate with the Severity of Hemorrhagic Fever with Renal Syndrome\nPassage: Hantaan virus antigens in the supernatants of the tissue samples of Tg mice were detected by sandwich ELISA. The anti-HTNV NP mAb 1A8 was prepared in the Department of Microbiology of our university. The mAb 1A8 was used as the coating antibody, and the horseradish peroxidase-conjugated mAb 1A8 was used as the detecting antibody . The supernatants of normal tissue were used as negative controls. First, add 100 µL prepared supernatants to duplicate wells and incubate for 2 h at 37°C. Next, remove the supernatants and wash three times. Then, add 100 µL detecting antibody to each well and incubate"
+      ],
+      "response": "The structure of Hantaan virus is spherical or ovoid, composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA. The genome comprises three negative sense, single-stranded RNAs that consist of the small, medium, and large segments encoding the nucleoprotein, envelope glycoproteins, and viral RNA-dependent RNA polymerase, respectively. The outer membrane of Hantaan virus is composed of Gn and Gc glycoproteins.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: Vaccines and Therapeutics Against Hantaviruses"
+          ],
+          [
+            "0b",
+            "Passage: The diameter of hantavirus particles is 80-US210 nm, and the structure is spherical or ovoid."
+          ],
+          [
+            "0c",
+            "They are composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA."
+          ],
+          [
+            "0d",
+            "They are very stable and can survive for more than 18 days at 4 • C and −20 • C and 10 days at room temperature ."
+          ],
+          [
+            "0e",
+            "The genome comprises three negative sense, single-stranded RNAs that consist the small , medium , and large segments that encode the nucleoprotein , envelope glycoproteins , and viral RNA-dependent RNA polymerase , respectively ."
+          ],
+          [
+            "0f",
+            "The outer membrane of hantavirus is composed of Gn and Gc"
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Vaccines and Therapeutics Against Hantaviruses"
+          ],
+          [
+            "1b",
+            "Passage: glycoprotein, which mediates the recognition of and entry into host cells."
+          ],
+          [
+            "1c",
+            "The crystal structure of HTNV Gn is very similar to that of PUUV Gn, which confirms that hantavirus Gn is conserved in hantavirus ."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Complete Genome and Phylogeny of Puumala Hantavirus Isolates Circulating in France"
+          ],
+          [
+            "2b",
+            "Passage: negative polarity: S segment codes for the nucleocapsid protein and a small non-structural s protein in several viral species; M segment for the glycoprotein precursor of the envelope glycoproteins Gn and Gc; and L segment for the RNA-dependent RNA polymerase ."
+          ],
+          [
+            "2c",
+            "Each hantavirus is predominantly associated with one or a few distinct mammal species and this stable virus-host association underscore the importance of host-related factors for understanding current distribution, evolution and epidemiology and mechanisms of emergence."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Novel Identified HLA-A*0201-Restricted Hantaan Virus Glycoprotein Cytotoxic T-Cell Epitopes Could Effectively Induce Protective Responses in HLA-A2.1/K(b) Transgenic Mice May Associate with the Severity of Hemorrhagic Fever with Renal Syndrome"
+          ],
+          [
+            "3b",
+            "Passage: Hantaan virus antigens in the supernatants of the tissue samples of Tg mice were detected by sandwich ELISA."
+          ],
+          [
+            "3c",
+            "The anti-HTNV NP mAb 1A8 was prepared in the Department of Microbiology of our university."
+          ],
+          [
+            "3d",
+            "The mAb 1A8 was used as the coating antibody, and the horseradish peroxidase-conjugated mAb 1A8 was used as the detecting antibody ."
+          ],
+          [
+            "3e",
+            "The supernatants of normal tissue were used as negative controls."
+          ],
+          [
+            "3f",
+            "First, add 100 µL prepared supernatants to duplicate wells and incubate for 2 h at 37°C."
+          ],
+          [
+            "3g",
+            "Next, remove the supernatants and wash three times."
+          ],
+          [
+            "3h",
+            "Then, add 100 µL detecting antibody to each well and incubate"
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The structure of Hantaan virus is spherical or ovoid, composed of 20-30% fat, >50% protein, 7% carbohydrates, and 2% RNA."
+        ],
+        [
+          "b",
+          "The genome comprises three negative sense, single-stranded RNAs that consist of the small, medium, and large segments encoding the nucleoprotein, envelope glycoproteins, and viral RNA-dependent RNA polymerase, respectively."
+        ],
+        [
+          "c",
+          "The outer membrane of Hantaan virus is composed of Gn and Gc glycoproteins."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence describes the structure, size, and composition of the Hantaan virus. Sentence 0b provides the size and shape, while sentence 0c provides the compositional details.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0b",
+            "0c"
+          ]
+        },
+        {
+          "explanation": "This sentence discusses the genome organization, specifying the three negative sense, single-stranded RNAs and their encoded proteins. Sentences 0e and 2b provide the necessary details about the genome segments and their functions.",
+          "fully_supported": true,
+          "response_sentence_key": "b",
+          "supporting_sentence_keys": [
+            "0e",
+            "2b"
+          ]
+        },
+        {
+          "explanation": "This sentence describes the outer membrane glycoproteins of the Hantaan virus. Sentence 0f states that the outer membrane is composed of Gn and Gc, and sentence 1b discusses glycoproteins in the context of hantaviruses.",
+          "fully_supported": true,
+          "response_sentence_key": "c",
+          "supporting_sentence_keys": [
+            "0f",
+            "1b"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response is generally well-supported by the documents. Sentence 'a' correctly describes the shape and composition of the Hantaan virus, supported by sentences 0b and 0c. Sentence 'b' accurately summarizes the genome organization, supported by sentences 0e and 2b. Sentence 'c' correctly describes the outer membrane glycoproteins, supported by sentences 0f and 1b.",
+      "relevance_explanation": "Documents 0, 1, and 2 contain useful information for answering the question about the structure of Hantaan virus. Document 0 provides details about the diameter, composition, structural stability, and genome organization of hantaviruses. Document 1 discusses glycoproteins and their role in the virus's entry into host cells. Document 2 elaborates on the genome segments and their encoded proteins. Document 3 focuses on experiments and antibodies, which are less relevant to the structure of the virus.",
+      "all_relevant_sentence_keys": [
+        "0b",
+        "0c",
+        "0e",
+        "0f",
+        "1b",
+        "2b"
+      ],
+      "all_utilized_sentence_keys": [
+        "0b",
+        "0c",
+        "0e",
+        "0f",
+        "1b",
+        "2b"
+      ],
+      "trulens_groundedness": 0.3333333333333333,
+      "trulens_context_relevance": 0.9,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.35,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.2,
+      "gpt35_utilization": 0.2,
+      "relevance_score": 0.3,
+      "utilization_score": 0.3,
+      "completeness_score": 1.0
+    },
+    "_domain": "covidqa",
+    "dataset_id": "1468"
+  },
+  {
+    "id": "1116",
+    "question": "In non-flying mammals, what what would be elicited by IFN expression upon viral infection?",
+    "documents": [
+      "Title: Accelerated viral dynamics in bat cell lines, with implications for zoonotic emergence\nPassage: transcriptomic blueprints for this IFN response are expressed constitutively, even in the absence of stimulation by viral RNA or DNA . In non-flying mammals, constitutive IFN expression would likely elicit widespread inflammation and concomitant immunopathology upon viral infection, but bats support unique adaptations to combat inflammation that may have evolved to mitigate metabolic damage induced during flight . The extent to which constitutive IFN-a expression signifies constitutive antiviral defense in the form of functional IFN-a protein remains unresolved. In bat cells constitutively expressing IFN-a, some protein-stimulated, downstream ISGs appear to be also constitutively expressed, but additional ISG induction is nonetheless",
+      "Title: Interferon-Induced Ifit2/ISG54 Protects Mice from Lethal VSV Neuropathogenesis\nPassage: Virus infection of mammals induces the synthesis of type I interferons , which, in turn, inhibit virus replication. The high susceptibility of type I IFN receptor knockout mice to infection by a variety of viruses provides strong evidence for the major role of the IFN system in protecting from viral pathogenesis. In these mice, although IFN is induced by virus infection, it cannot act on target cells. Similarly, in genetically altered mice that are defective in IFN production due to the absence of specific pathogen-associated pattern recognition receptors, signaling proteins or specific transcription factors, viral pathogenesis is enhanced . Although",
+      "Title: Interferon-Induced Ifit2/ISG54 Protects Mice from Lethal VSV Neuropathogenesis\nPassage: IFNs are defined by their antiviral activities. They inhibit the replication of many, if not all, viruses mostly by direct inhibition of replication in the infected cells but also by promoting the ability of immune cells to recognize and eliminate the virus-infected cells . The direct effects are mediated by ISGs, which number in the hundreds, and different ISGs are thought to have more potent antiviral activities toward different families of viruses . However, in most cases, it is not known which ISG inhibits the replication of a given virus; the rare exception is the Mx-mediated inhibition of influenza viruses,",
+      "Title: Virus-Like Particles Activate Type I Interferon Pathways to Facilitate Post-Exposure Protection against Ebola Virus Infection\nPassage: To confirm that VLP induction of ISG is dependent on type I IFN signaling, we next tested ISG induction in Ifnar -/mice. As expected, none of the ISGs tested in Fig. 2 were induced in Ifnar -/mice after VLP treatment or EBOV infection . VLPs lower expression of proinflammatory cytokines in EBOV infected mice EBOV pathophysiology such as severe hemorrhagic symptoms and tissue damage is thought to be associated with dysregulated inflammatory cytokine production . Given that VLPs accelerated induction of negative regulatory ISGs, we next evaluated whether VLPs modulate expression of proinflammatory genes. In Fig. 3 , expression of"
+    ],
+    "response": "",
+    "context_relevance": 0.045454545454545456,
+    "context_utilization": 0.045454545454545456,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "1116",
+      "question": "In non-flying mammals, what what would be elicited by IFN expression upon viral infection?",
+      "documents": [
+        "Title: Accelerated viral dynamics in bat cell lines, with implications for zoonotic emergence\nPassage: transcriptomic blueprints for this IFN response are expressed constitutively, even in the absence of stimulation by viral RNA or DNA . In non-flying mammals, constitutive IFN expression would likely elicit widespread inflammation and concomitant immunopathology upon viral infection, but bats support unique adaptations to combat inflammation that may have evolved to mitigate metabolic damage induced during flight . The extent to which constitutive IFN-a expression signifies constitutive antiviral defense in the form of functional IFN-a protein remains unresolved. In bat cells constitutively expressing IFN-a, some protein-stimulated, downstream ISGs appear to be also constitutively expressed, but additional ISG induction is nonetheless",
+        "Title: Interferon-Induced Ifit2/ISG54 Protects Mice from Lethal VSV Neuropathogenesis\nPassage: Virus infection of mammals induces the synthesis of type I interferons , which, in turn, inhibit virus replication. The high susceptibility of type I IFN receptor knockout mice to infection by a variety of viruses provides strong evidence for the major role of the IFN system in protecting from viral pathogenesis. In these mice, although IFN is induced by virus infection, it cannot act on target cells. Similarly, in genetically altered mice that are defective in IFN production due to the absence of specific pathogen-associated pattern recognition receptors, signaling proteins or specific transcription factors, viral pathogenesis is enhanced . Although",
+        "Title: Interferon-Induced Ifit2/ISG54 Protects Mice from Lethal VSV Neuropathogenesis\nPassage: IFNs are defined by their antiviral activities. They inhibit the replication of many, if not all, viruses mostly by direct inhibition of replication in the infected cells but also by promoting the ability of immune cells to recognize and eliminate the virus-infected cells . The direct effects are mediated by ISGs, which number in the hundreds, and different ISGs are thought to have more potent antiviral activities toward different families of viruses . However, in most cases, it is not known which ISG inhibits the replication of a given virus; the rare exception is the Mx-mediated inhibition of influenza viruses,",
+        "Title: Virus-Like Particles Activate Type I Interferon Pathways to Facilitate Post-Exposure Protection against Ebola Virus Infection\nPassage: To confirm that VLP induction of ISG is dependent on type I IFN signaling, we next tested ISG induction in Ifnar -/mice. As expected, none of the ISGs tested in Fig. 2 were induced in Ifnar -/mice after VLP treatment or EBOV infection . VLPs lower expression of proinflammatory cytokines in EBOV infected mice EBOV pathophysiology such as severe hemorrhagic symptoms and tissue damage is thought to be associated with dysregulated inflammatory cytokine production . Given that VLPs accelerated induction of negative regulatory ISGs, we next evaluated whether VLPs modulate expression of proinflammatory genes. In Fig. 3 , expression of"
+      ],
+      "response": "In non-flying mammals, constitutive IFN expression would likely elicit widespread inflammation and concomitant immunopathology upon viral infection.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "covidqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Title: Accelerated viral dynamics in bat cell lines, with implications for zoonotic emergence"
+          ],
+          [
+            "0b",
+            "Passage: transcriptomic blueprints for this IFN response are expressed constitutively, even in the absence of stimulation by viral RNA or DNA ."
+          ],
+          [
+            "0c",
+            "In non-flying mammals, constitutive IFN expression would likely elicit widespread inflammation and concomitant immunopathology upon viral infection, but bats support unique adaptations to combat inflammation that may have evolved to mitigate metabolic damage induced during flight ."
+          ],
+          [
+            "0d",
+            "The extent to which constitutive IFN-a expression signifies constitutive antiviral defense in the form of functional IFN-a protein remains unresolved."
+          ],
+          [
+            "0e",
+            "In bat cells constitutively expressing IFN-a, some protein-stimulated, downstream ISGs appear to be also constitutively expressed, but additional ISG induction is nonetheless"
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Title: Interferon-Induced Ifit2/ISG54 Protects Mice from Lethal VSV Neuropathogenesis"
+          ],
+          [
+            "1b",
+            "Passage: Virus infection of mammals induces the synthesis of type I interferons , which, in turn, inhibit virus replication."
+          ],
+          [
+            "1c",
+            "The high susceptibility of type I IFN receptor knockout mice to infection by a variety of viruses provides strong evidence for the major role of the IFN system in protecting from viral pathogenesis."
+          ],
+          [
+            "1d",
+            "In these mice, although IFN is induced by virus infection, it cannot act on target cells."
+          ],
+          [
+            "1e",
+            "Similarly, in genetically altered mice that are defective in IFN production due to the absence of specific pathogen-associated pattern recognition receptors, signaling proteins or specific transcription factors, viral pathogenesis is enhanced . Although"
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Title: Interferon-Induced Ifit2/ISG54 Protects Mice from Lethal VSV Neuropathogenesis"
+          ],
+          [
+            "2b",
+            "Passage: IFNs are defined by their antiviral activities."
+          ],
+          [
+            "2c",
+            "They inhibit the replication of many, if not all, viruses mostly by direct inhibition of replication in the infected cells but also by promoting the ability of immune cells to recognize and eliminate the virus-infected cells ."
+          ],
+          [
+            "2d",
+            "The direct effects are mediated by ISGs, which number in the hundreds, and different ISGs are thought to have more potent antiviral activities toward different families of viruses ."
+          ],
+          [
+            "2e",
+            "However, in most cases, it is not known which ISG inhibits the replication of a given virus; the rare exception is the Mx-mediated inhibition of influenza viruses,"
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Title: Virus-Like Particles Activate Type I Interferon Pathways to Facilitate Post-Exposure Protection against Ebola Virus Infection"
+          ],
+          [
+            "3b",
+            "Passage: To confirm that VLP induction of ISG is dependent on type I IFN signaling, we next tested ISG induction in Ifnar -/mice."
+          ],
+          [
+            "3c",
+            "As expected, none of the ISGs tested in Fig."
+          ],
+          [
+            "3d",
+            "2 were induced in Ifnar -/mice after VLP treatment or EBOV infection ."
+          ],
+          [
+            "3e",
+            "VLPs lower expression of proinflammatory cytokines in EBOV infected mice EBOV pathophysiology such as severe hemorrhagic symptoms and tissue damage is thought to be associated with dysregulated inflammatory cytokine production ."
+          ],
+          [
+            "3f",
+            "Given that VLPs accelerated induction of negative regulatory ISGs, we next evaluated whether VLPs modulate expression of proinflammatory genes. In Fig."
+          ],
+          [
+            "3g",
+            "3 , expression of"
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "In non-flying mammals, constitutive IFN expression would likely elicit widespread inflammation and concomitant immunopathology upon viral infection."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence states that constitutive IFN expression in non-flying mammals would likely elicit widespread inflammation and concomitant immunopathology upon viral infection. This is directly supported by sentence '0c' in Document 0.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0c"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response includes a single sentence that directly addresses what would be elicited by IFN expression in non-flying mammals upon viral infection. Document 0, sentence '0c' provides support for this claim, stating that constitutive IFN expression in non-flying mammals would likely elicit widespread inflammation and concomitant immunopathology. Therefore, the response is fully supported by the document.",
+      "relevance_explanation": "Document 0 contains the relevant information for answering the question about what would be elicited by IFN expression in non-flying mammals upon viral infection. Specifically, it discusses the effects of constitutive IFN expression in non-flying mammals and contrasts it with bats.",
+      "all_relevant_sentence_keys": [
+        "0c"
+      ],
+      "all_utilized_sentence_keys": [
+        "0c"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 0.8,
+      "ragas_faithfulness": 0.6666666666666666,
+      "ragas_context_relevance": 0.045454545454545456,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.09090909090909091,
+      "gpt35_utilization": 0.09090909090909091,
+      "relevance_score": 0.045454545454545456,
+      "utilization_score": 0.045454545454545456,
+      "completeness_score": 1.0
+    },
+    "_domain": "covidqa",
+    "dataset_id": "1116"
+  }
+]

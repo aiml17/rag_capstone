@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "5adf734b5542995ec70e9016",
+    "question": "What show other than Hello Ross did Chelsea Handler appear on in January of 2016",
+    "documents": [
+      "Chelsea Joy Handler (born February 25, 1975) is an American comedian, actress, writer, television host, and producer. She hosted the late-night talk show \"Chelsea Lately\" on the E! network from 2007 to 2014, and released a documentary series, \"Chelsea Does\", on Netflix in January 2016. In 2012, \"Time\" named Handler one of the 100 most influential people in the world on their annual \"Time\" 100 list.",
+      "Chelsea Does is an American web television documentary series first released on Netflix on January 22, 2016. The episodes follow comedian Chelsea Handler as she explores different subjects. Most of the episodes include discussions between Handler and her friends (often fellow comedians), family, and psychologists about the topic at hand. Handler also travels for the show visiting destinations relevant to the topic.",
+      "The Chelsea Handler Show is an American sketch comedy series that aired on the E! television network. The series starred Chelsea Handler and featured skits that mocked the entertainment industry, spoofed celebrities, television, the elderly, and herself. The show aired Friday nights at 10:30 EST.",
+      "Hello Ross was an American late-night talk show hosted by Ross Matthews. The show debuted on September 6, 2013, on E!. The show was executive-produced by Chelsea Handler, Ross Mathews, Tom Brunelle, and Ray Giuliani. The show was taped in front of a live audience. The show's premise was around popular culture and it included sections on celebrity topic discussion, audience participation, a pre-taped segment, and main guest interview."
+    ],
+    "response": "",
+    "context_relevance": 0.125,
+    "context_utilization": 0.125,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5adf734b5542995ec70e9016",
+      "question": "What show other than Hello Ross did Chelsea Handler appear on in January of 2016",
+      "documents": [
+        "Chelsea Joy Handler (born February 25, 1975) is an American comedian, actress, writer, television host, and producer. She hosted the late-night talk show \"Chelsea Lately\" on the E! network from 2007 to 2014, and released a documentary series, \"Chelsea Does\", on Netflix in January 2016. In 2012, \"Time\" named Handler one of the 100 most influential people in the world on their annual \"Time\" 100 list.",
+        "Chelsea Does is an American web television documentary series first released on Netflix on January 22, 2016. The episodes follow comedian Chelsea Handler as she explores different subjects. Most of the episodes include discussions between Handler and her friends (often fellow comedians), family, and psychologists about the topic at hand. Handler also travels for the show visiting destinations relevant to the topic.",
+        "The Chelsea Handler Show is an American sketch comedy series that aired on the E! television network. The series starred Chelsea Handler and featured skits that mocked the entertainment industry, spoofed celebrities, television, the elderly, and herself. The show aired Friday nights at 10:30 EST.",
+        "Hello Ross was an American late-night talk show hosted by Ross Matthews. The show debuted on September 6, 2013, on E!. The show was executive-produced by Chelsea Handler, Ross Mathews, Tom Brunelle, and Ray Giuliani. The show was taped in front of a live audience. The show's premise was around popular culture and it included sections on celebrity topic discussion, audience participation, a pre-taped segment, and main guest interview."
+      ],
+      "response": "In addition to \"Hello Ross,\" Chelsea Handler also appeared in the documentary series \"Chelsea Does\" on Netflix in January 2016.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Chelsea Joy Handler (born February 25, 1975) is an American comedian, actress, writer, television host, and producer."
+          ],
+          [
+            "0b",
+            "She hosted the late-night talk show \"Chelsea Lately\" on the E!"
+          ],
+          [
+            "0c",
+            "network from 2007 to 2014, and released a documentary series, \"Chelsea Does\", on Netflix in January 2016."
+          ],
+          [
+            "0d",
+            "In 2012, \"Time\" named Handler one of the 100 most influential people in the world on their annual \"Time\" 100 list."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Chelsea Does is an American web television documentary series first released on Netflix on January 22, 2016."
+          ],
+          [
+            "1b",
+            "The episodes follow comedian Chelsea Handler as she explores different subjects."
+          ],
+          [
+            "1c",
+            "Most of the episodes include discussions between Handler and her friends (often fellow comedians), family, and psychologists about the topic at hand."
+          ],
+          [
+            "1d",
+            "Handler also travels for the show visiting destinations relevant to the topic."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "The Chelsea Handler Show is an American sketch comedy series that aired on the E! television network."
+          ],
+          [
+            "2b",
+            "The series starred Chelsea Handler and featured skits that mocked the entertainment industry, spoofed celebrities, television, the elderly, and herself."
+          ],
+          [
+            "2c",
+            "The show aired Friday nights at 10:30 EST."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Hello Ross was an American late-night talk show hosted by Ross Matthews."
+          ],
+          [
+            "3b",
+            "The show debuted on September 6, 2013, on E!."
+          ],
+          [
+            "3c",
+            "The show was executive-produced by Chelsea Handler, Ross Mathews, Tom Brunelle, and Ray Giuliani."
+          ],
+          [
+            "3d",
+            "The show was taped in front of a live audience."
+          ],
+          [
+            "3e",
+            "The show's premise was around popular culture and it included sections on celebrity topic discussion, audience participation, a pre-taped segment, and main guest interview."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "In addition to \"Hello Ross,\" Chelsea Handler also appeared in the documentary series \"Chelsea Does\" on Netflix in January 2016."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence correctly states that Chelsea Handler appeared in the documentary series 'Chelsea Does' on Netflix in January 2016. This is supported by 0c and 1a. Although the mention of 'Hello Ross' is redundant in this context, it does not invalidate the correctness of the statement about 'Chelsea Does'.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0c",
+            "1a"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response makes two claims: 1) Chelsea Handler appeared in 'Hello Ross', and 2) Chelsea Handler appeared in the documentary series 'Chelsea Does' on Netflix in January 2016. The first claim is partially correct since the question only asks about another show she appeared in aside from 'Hello Ross'. The second claim is supported by documents 0 and 1, which state that 'Chelsea Does' was released on Netflix in January 2016 and featured Chelsea Handler.",
+      "relevance_explanation": "Documents 0 and 1 contain useful information for answering the question. Document 0 mentions Chelsea Handler's involvement in a Netflix documentary series 'Chelsea Does' released in January 2016. Document 1 provides additional details about 'Chelsea Does'. Document 2 and Document 3 do not contain relevant information for this specific question.",
+      "all_relevant_sentence_keys": [
+        "0c",
+        "1a"
+      ],
+      "all_utilized_sentence_keys": [
+        "0c",
+        "1a"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 0.9,
+      "ragas_faithfulness": 0.5,
+      "ragas_context_relevance": 0.0,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.5625,
+      "gpt35_utilization": 0.0625,
+      "relevance_score": 0.125,
+      "utilization_score": 0.125,
+      "completeness_score": 1.0
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5adf734b5542995ec70e9016"
+  },
+  {
+    "id": "5a8b19f45542996c9b8d5f9e",
+    "question": "Stewart Nozette is currenlty serving time in a correctional facility operated by which government agency?",
+    "documents": [
+      "The Nebraska State Penitentiary (NSP) is a state correctional facility for the Nebraska Department of Correctional Services. Located in Lincoln, it is the oldest state correctional facility in Nebraska, opening in 1869. Until after World War I, it was the only adult correctional facility in the state.",
+      "Stewart David Nozette (born May 20, 1957) is an American planetary scientist, technologist, and consultant who worked for the United States Department of Energy, the United States Department of Defense, DARPA, the United States Naval Research Laboratory, and NASA. He is also a convicted felon for attempted espionage and fraud against the United States. The FBI arrested him October 19, 2009, charging him with attempted espionage after a sting operation which Nozette's lawyer claims amounted to entrapment. At trial, Nozette admitted attempting to sell U.S. classified information to someone he believed was an Israeli Mossad operative, but was in reality an undercover Federal Bureau of Investigation employee. He pleaded guilty to one charge of attempted espionage and was sentenced, under the terms of a plea bargain, to thirteen years in prison and is now serving time at the Federal Correctional Institution, Terre Haute. The FBI found no evidence that any classified materials were actually released to anyone outside the US Government.",
+      "The Federal Correctional Institution, Terre Haute (FCI Terre Haute) is a medium-security United States federal prison for male inmates in Indiana. It is part of the Terre Haute Federal Correctional Complex (FCC Terre Haute) and is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice. The facility also has an adjacent satellite prison camp for minimum-security male offenders.",
+      "The Indianapolis Juvenile Correctional Facility was a minimum, medium, and maximum state juvenile facility of the Indiana Department of Correction. It was located on Girls School Road, 8 mi west of downtown Indianapolis. The facility currently houses 185 female inmates ranging in age from twelve years to twenty-one years. The facility was originally established in 1907 as an all-girls school and was known for most of its history as the Indiana Girls School. In 2006, juvenile male offenders were assigned to the facility as well. In late 2007 all male offenders were transferred to other state facilities and the Indianapolis Juvenile Correctional Facility reverted to being an all female facility. In 2009 the girls were moved to the Madison Juvenile Correctional Facility, and the former IJCF became the current location of the Indiana Women's Prison."
+    ],
+    "response": "",
+    "context_relevance": 0.15789473684210525,
+    "context_utilization": 0.10526315789473684,
+    "completeness": 0.6666666666666666,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5a8b19f45542996c9b8d5f9e",
+      "question": "Stewart Nozette is currenlty serving time in a correctional facility operated by which government agency?",
+      "documents": [
+        "The Nebraska State Penitentiary (NSP) is a state correctional facility for the Nebraska Department of Correctional Services. Located in Lincoln, it is the oldest state correctional facility in Nebraska, opening in 1869. Until after World War I, it was the only adult correctional facility in the state.",
+        "Stewart David Nozette (born May 20, 1957) is an American planetary scientist, technologist, and consultant who worked for the United States Department of Energy, the United States Department of Defense, DARPA, the United States Naval Research Laboratory, and NASA. He is also a convicted felon for attempted espionage and fraud against the United States. The FBI arrested him October 19, 2009, charging him with attempted espionage after a sting operation which Nozette's lawyer claims amounted to entrapment. At trial, Nozette admitted attempting to sell U.S. classified information to someone he believed was an Israeli Mossad operative, but was in reality an undercover Federal Bureau of Investigation employee. He pleaded guilty to one charge of attempted espionage and was sentenced, under the terms of a plea bargain, to thirteen years in prison and is now serving time at the Federal Correctional Institution, Terre Haute. The FBI found no evidence that any classified materials were actually released to anyone outside the US Government.",
+        "The Federal Correctional Institution, Terre Haute (FCI Terre Haute) is a medium-security United States federal prison for male inmates in Indiana. It is part of the Terre Haute Federal Correctional Complex (FCC Terre Haute) and is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice. The facility also has an adjacent satellite prison camp for minimum-security male offenders.",
+        "The Indianapolis Juvenile Correctional Facility was a minimum, medium, and maximum state juvenile facility of the Indiana Department of Correction. It was located on Girls School Road, 8 mi west of downtown Indianapolis. The facility currently houses 185 female inmates ranging in age from twelve years to twenty-one years. The facility was originally established in 1907 as an all-girls school and was known for most of its history as the Indiana Girls School. In 2006, juvenile male offenders were assigned to the facility as well. In late 2007 all male offenders were transferred to other state facilities and the Indianapolis Juvenile Correctional Facility reverted to being an all female facility. In 2009 the girls were moved to the Madison Juvenile Correctional Facility, and the former IJCF became the current location of the Indiana Women's Prison."
+      ],
+      "response": "Stewart Nozette is currently serving time in the Federal Correctional Institution, Terre Haute, which is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "The Nebraska State Penitentiary (NSP) is a state correctional facility for the Nebraska Department of Correctional Services."
+          ],
+          [
+            "0b",
+            "Located in Lincoln, it is the oldest state correctional facility in Nebraska, opening in 1869."
+          ],
+          [
+            "0c",
+            "Until after World War I, it was the only adult correctional facility in the state."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Stewart David Nozette (born May 20, 1957) is an American planetary scientist, technologist, and consultant who worked for the United States Department of Energy, the United States Department of Defense, DARPA, the United States Naval Research Laboratory, and NASA."
+          ],
+          [
+            "1b",
+            "He is also a convicted felon for attempted espionage and fraud against the United States."
+          ],
+          [
+            "1c",
+            "The FBI arrested him October 19, 2009, charging him with attempted espionage after a sting operation which Nozette's lawyer claims amounted to entrapment."
+          ],
+          [
+            "1d",
+            "At trial, Nozette admitted attempting to sell U.S. classified information to someone he believed was an Israeli Mossad operative, but was in reality an undercover Federal Bureau of Investigation employee."
+          ],
+          [
+            "1e",
+            "He pleaded guilty to one charge of attempted espionage and was sentenced, under the terms of a plea bargain, to thirteen years in prison and is now serving time at the Federal Correctional Institution, Terre Haute."
+          ],
+          [
+            "1f",
+            "The FBI found no evidence that any classified materials were actually released to anyone outside the US Government."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "The Federal Correctional Institution, Terre Haute (FCI Terre Haute) is a medium-security United States federal prison for male inmates in Indiana."
+          ],
+          [
+            "2b",
+            "It is part of the Terre Haute Federal Correctional Complex (FCC Terre Haute) and is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice."
+          ],
+          [
+            "2c",
+            "The facility also has an adjacent satellite prison camp for minimum-security male offenders."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "The Indianapolis Juvenile Correctional Facility was a minimum, medium, and maximum state juvenile facility of the Indiana Department of Correction."
+          ],
+          [
+            "3b",
+            "It was located on Girls School Road, 8 mi west of downtown Indianapolis."
+          ],
+          [
+            "3c",
+            "The facility currently houses 185 female inmates ranging in age from twelve years to twenty-one years."
+          ],
+          [
+            "3d",
+            "The facility was originally established in 1907 as an all-girls school and was known for most of its history as the Indiana Girls School."
+          ],
+          [
+            "3e",
+            "In 2006, juvenile male offenders were assigned to the facility as well."
+          ],
+          [
+            "3f",
+            "In late 2007 all male offenders were transferred to other state facilities and the Indianapolis Juvenile Correctional Facility reverted to being an all female facility."
+          ],
+          [
+            "3g",
+            "In 2009 the girls were moved to the Madison Juvenile Correctional Facility, and the former IJCF became the current location of the Indiana Women's Prison."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "Stewart Nozette is currently serving time in the Federal Correctional Institution, Terre Haute, which is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence is fully supported by the documents. Document 1e provides that Stewart Nozette is serving time at the Federal Correctional Institution, Terre Haute. Document 2b confirms that this facility is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "1e",
+            "2b"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response contains a single sentence making several claims, which are all well-supported by the documents. The sentence states that Stewart Nozette is currently serving time in the Federal Correctional Institution, Terre Haute, which is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice. Document 1e confirms that Stewart Nozette is serving time at the Federal Correctional Institution, Terre Haute, and Document 2b confirms that this facility is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice.",
+      "relevance_explanation": "Documents 1 and 2 contain useful information for answering the question. Document 1 provides specific details about Stewart Nozette's conviction and current imprisonment, stating he is serving time at the Federal Correctional Institution, Terre Haute. Document 2 provides information about the Federal Correctional Institution, Terre Haute itself and mentions that it is operated by the Federal Bureau of Prisons, a division of the United States Department of Justice.",
+      "all_relevant_sentence_keys": [
+        "1e",
+        "2a",
+        "2b"
+      ],
+      "all_utilized_sentence_keys": [
+        "1e",
+        "2b"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.0,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.10526315789473684,
+      "gpt35_utilization": 0.10526315789473684,
+      "relevance_score": 0.15789473684210525,
+      "utilization_score": 0.10526315789473684,
+      "completeness_score": 0.6666666666666666
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5a8b19f45542996c9b8d5f9e"
+  },
+  {
+    "id": "5ab98e2b5542996be202054e",
+    "question": "The person that William Flannery was an architect for entered the publishing business in what year?",
+    "documents": [
+      "<onlyinclude>In academic publishing, predatory open access publishing is an exploitative open-access publishing business model that involves charging publication fees to authors without providing the editorial and publishing services associated with legitimate journals (open access or not). \"Beall's List\", a report that had been regularly updated by Jeffrey Beall until January 2017, set forth criteria for categorizing predatory publications and lists publishers and independent journals that meet those criteria. However, Beall's list was \"unpublished\" by the author in January 2017 (see below for more details; the list had 1155 inclusions as of 31 December 2016). Newer scholars from developing countries are said to be especially at risk of becoming the victim of these practices.</onlyinclude>",
+      "William Doyce “Buddy” Killen (November 13, 1932 – November 1, 2006) was an American record producer and music publisher, and a former owner of Trinity Broadcasting Network and Tree International Publishing, the largest country music publishing business, before he sold it to CBS Records in 1989. He was also the owner of Killen Music Group, involved with more diverse genres of music, such as pop and rap.",
+      "William Edward Flannery (November 17, 1898 – January 25, 1959) was an American art director and architect for William Randolph Hearst. He won an Academy Award in the category Best Art Direction for the film \"Picnic\".",
+      "William Randolph Hearst Sr. ( ; April 29, 1863 – August 14, 1951) was an American businessman, politician, and newspaper publisher who built the nation's largest newspaper chain and media company Hearst Communications and whose flamboyant methods of yellow journalism influenced the nation's popular media by emphasizing sensationalism and human interest stories. Hearst entered the publishing business in 1887 after being given control of \"The San Francisco Examiner\" by his wealthy father. Moving to New York City, he acquired \"The New York Journal\" and fought a bitter circulation war with Joseph Pulitzer's \"New York World\" that sold papers by giant headlines over lurid stories featuring crime, corruption, graphics, sex, and innuendo. Acquiring more newspapers, Hearst created a chain that numbered nearly thirty papers in major American cities at its peak. He later expanded to magazines, creating the largest newspaper and magazine business in the world."
+    ],
+    "response": "",
+    "context_relevance": 0.15384615384615385,
+    "context_utilization": 0.07692307692307693,
+    "completeness": 0.5,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5ab98e2b5542996be202054e",
+      "question": "The person that William Flannery was an architect for entered the publishing business in what year?",
+      "documents": [
+        "<onlyinclude>In academic publishing, predatory open access publishing is an exploitative open-access publishing business model that involves charging publication fees to authors without providing the editorial and publishing services associated with legitimate journals (open access or not). \"Beall's List\", a report that had been regularly updated by Jeffrey Beall until January 2017, set forth criteria for categorizing predatory publications and lists publishers and independent journals that meet those criteria. However, Beall's list was \"unpublished\" by the author in January 2017 (see below for more details; the list had 1155 inclusions as of 31 December 2016). Newer scholars from developing countries are said to be especially at risk of becoming the victim of these practices.</onlyinclude>",
+        "William Doyce “Buddy” Killen (November 13, 1932 – November 1, 2006) was an American record producer and music publisher, and a former owner of Trinity Broadcasting Network and Tree International Publishing, the largest country music publishing business, before he sold it to CBS Records in 1989. He was also the owner of Killen Music Group, involved with more diverse genres of music, such as pop and rap.",
+        "William Edward Flannery (November 17, 1898 – January 25, 1959) was an American art director and architect for William Randolph Hearst. He won an Academy Award in the category Best Art Direction for the film \"Picnic\".",
+        "William Randolph Hearst Sr. ( ; April 29, 1863 – August 14, 1951) was an American businessman, politician, and newspaper publisher who built the nation's largest newspaper chain and media company Hearst Communications and whose flamboyant methods of yellow journalism influenced the nation's popular media by emphasizing sensationalism and human interest stories. Hearst entered the publishing business in 1887 after being given control of \"The San Francisco Examiner\" by his wealthy father. Moving to New York City, he acquired \"The New York Journal\" and fought a bitter circulation war with Joseph Pulitzer's \"New York World\" that sold papers by giant headlines over lurid stories featuring crime, corruption, graphics, sex, and innuendo. Acquiring more newspapers, Hearst created a chain that numbered nearly thirty papers in major American cities at its peak. He later expanded to magazines, creating the largest newspaper and magazine business in the world."
+      ],
+      "response": "William Randolph Hearst entered the publishing business in 1887.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "<onlyinclude>In academic publishing, predatory open access publishing is an exploitative open-access publishing business model that involves charging publication fees to authors without providing the editorial and publishing services associated with legitimate journals (open access or not)."
+          ],
+          [
+            "0b",
+            "\"Beall's List\", a report that had been regularly updated by Jeffrey Beall until January 2017, set forth criteria for categorizing predatory publications and lists publishers and independent journals that meet those criteria."
+          ],
+          [
+            "0c",
+            "However, Beall's list was \"unpublished\" by the author in January 2017 (see below for more details; the list had 1155 inclusions as of 31 December 2016)."
+          ],
+          [
+            "0d",
+            "Newer scholars from developing countries are said to be especially at risk of becoming the victim of these practices.</onlyinclude>"
+          ]
+        ],
+        [
+          [
+            "1a",
+            "William Doyce “Buddy” Killen (November 13, 1932 – November 1, 2006) was an American record producer and music publisher, and a former owner of Trinity Broadcasting Network and Tree International Publishing, the largest country music publishing business, before he sold it to CBS Records in 1989."
+          ],
+          [
+            "1b",
+            "He was also the owner of Killen Music Group, involved with more diverse genres of music, such as pop and rap."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "William Edward Flannery (November 17, 1898 – January 25, 1959) was an American art director and architect for William Randolph Hearst."
+          ],
+          [
+            "2b",
+            "He won an Academy Award in the category Best Art Direction for the film \"Picnic\"."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "William Randolph Hearst Sr. ( ; April 29, 1863 – August 14, 1951) was an American businessman, politician, and newspaper publisher who built the nation's largest newspaper chain and media company Hearst Communications and whose flamboyant methods of yellow journalism influenced the nation's popular media by emphasizing sensationalism and human interest stories."
+          ],
+          [
+            "3b",
+            "Hearst entered the publishing business in 1887 after being given control of \"The San Francisco Examiner\" by his wealthy father."
+          ],
+          [
+            "3c",
+            "Moving to New York City, he acquired \"The New York Journal\" and fought a bitter circulation war with Joseph Pulitzer's \"New York World\" that sold papers by giant headlines over lurid stories featuring crime, corruption, graphics, sex, and innuendo."
+          ],
+          [
+            "3d",
+            "Acquiring more newspapers, Hearst created a chain that numbered nearly thirty papers in major American cities at its peak."
+          ],
+          [
+            "3e",
+            "He later expanded to magazines, creating the largest newspaper and magazine business in the world."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "William Randolph Hearst entered the publishing business in 1887."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence accurately states that William Randolph Hearst entered the publishing business in 1887, which is directly supported by the claim in document 3b.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "3b"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response consists of a single sentence stating that William Randolph Hearst entered the publishing business in 1887. Document 3b clearly supports this claim by stating 'Hearst entered the publishing business in 1887 after being given control of \"The San Francisco Examiner\" by his wealthy father.' Therefore, the response is fully supported by the documents.",
+      "relevance_explanation": "Documents 2 and 3 contain relevant information for answering the question. Document 2 mentions William Edward Flannery was an architect for William Randolph Hearst. Document 3 states that William Randolph Hearst entered the publishing business in 1887.",
+      "all_relevant_sentence_keys": [
+        "2a",
+        "3b"
+      ],
+      "all_utilized_sentence_keys": [
+        "3b"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.0,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.15384615384615385,
+      "gpt35_utilization": 0.07692307692307693,
+      "relevance_score": 0.15384615384615385,
+      "utilization_score": 0.07692307692307693,
+      "completeness_score": 0.5
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5ab98e2b5542996be202054e"
+  },
+  {
+    "id": "5ae1f079554299234fd04343",
+    "question": "Which county located in the commonwealth of Kentucky is Kentucky Route 393 (KY 393) a state highway in ",
+    "documents": [
+      "Kentucky Route 393 (KY 393) is a state highway in Oldham County, Kentucky, United States. Its northern terminus is US 42. From there it continues 5.5 mi south to a 0.04 mi overlap with KY 146 in Buckner. It then splits south to continue for 2.5 mi where it junctions KY 22 near Centerfield. It follows KY 22 east for 1 mi until it splits to the south. It continues 1.5 mi south and then terminates at Mount Zion Road. There are no low clearances or weight limits on this particular state route. As of 2009, this route has been relocated and improved. From the interchange of Interstate 71, it has been widened to three lanes with a center turn lane. It has been improved to the junction of State Route 22.",
+      "Oldham County is a county located in the commonwealth of Kentucky. As of the 2010 census, the population was 60,316. Its county seat is La Grange. The county is named for Colonel William Oldham. Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food. After a vote in late 2015; Oldham county has become a completely wet county.",
+      "Kentucky Route 1065 (KY 1065) is a 13.715 mi state highway located in Louisville, Kentucky. The western terminus of the route is at Kentucky Route 907 a short distance west of Kentucky Route 841 (Gene Snyder Freeway) exit 6 in the Louisville neighborhood of Auburndale. The eastern terminus is at Kentucky Route 1819 in Fern Creek.",
+      "Kentucky Route 155 (KY 155) is a 20.788 mi state highway in the U.S. state of Kentucky. The route originates at a junction with U.S. Route 31E and US 150 (Bardstown Road) in Louisville, Kentucky. On the other side of intersection, KY 155 becomes a local road called Trevilian Way. KY 155 continues through several Louisville suburbs to Jeffersontown, Kentucky and into Spencer County, where it eventually merges with Kentucky Route 55 a few miles north of Taylorsville, Kentucky."
+    ],
+    "response": "",
+    "context_relevance": 0.08695652173913043,
+    "context_utilization": 0.043478260869565216,
+    "completeness": 0.5,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5ae1f079554299234fd04343",
+      "question": "Which county located in the commonwealth of Kentucky is Kentucky Route 393 (KY 393) a state highway in ",
+      "documents": [
+        "Kentucky Route 393 (KY 393) is a state highway in Oldham County, Kentucky, United States. Its northern terminus is US 42. From there it continues 5.5 mi south to a 0.04 mi overlap with KY 146 in Buckner. It then splits south to continue for 2.5 mi where it junctions KY 22 near Centerfield. It follows KY 22 east for 1 mi until it splits to the south. It continues 1.5 mi south and then terminates at Mount Zion Road. There are no low clearances or weight limits on this particular state route. As of 2009, this route has been relocated and improved. From the interchange of Interstate 71, it has been widened to three lanes with a center turn lane. It has been improved to the junction of State Route 22.",
+        "Oldham County is a county located in the commonwealth of Kentucky. As of the 2010 census, the population was 60,316. Its county seat is La Grange. The county is named for Colonel William Oldham. Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food. After a vote in late 2015; Oldham county has become a completely wet county.",
+        "Kentucky Route 1065 (KY 1065) is a 13.715 mi state highway located in Louisville, Kentucky. The western terminus of the route is at Kentucky Route 907 a short distance west of Kentucky Route 841 (Gene Snyder Freeway) exit 6 in the Louisville neighborhood of Auburndale. The eastern terminus is at Kentucky Route 1819 in Fern Creek.",
+        "Kentucky Route 155 (KY 155) is a 20.788 mi state highway in the U.S. state of Kentucky. The route originates at a junction with U.S. Route 31E and US 150 (Bardstown Road) in Louisville, Kentucky. On the other side of intersection, KY 155 becomes a local road called Trevilian Way. KY 155 continues through several Louisville suburbs to Jeffersontown, Kentucky and into Spencer County, where it eventually merges with Kentucky Route 55 a few miles north of Taylorsville, Kentucky."
+      ],
+      "response": "Kentucky Route 393 (KY 393) is a state highway in Oldham County, Kentucky.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Kentucky Route 393 (KY 393) is a state highway in Oldham County, Kentucky, United States."
+          ],
+          [
+            "0b",
+            "Its northern terminus is US 42."
+          ],
+          [
+            "0c",
+            "From there it continues 5.5 mi south to a 0.04 mi overlap with KY 146 in Buckner."
+          ],
+          [
+            "0d",
+            "It then splits south to continue for 2.5 mi where it junctions KY 22 near Centerfield."
+          ],
+          [
+            "0e",
+            "It follows KY 22 east for 1 mi until it splits to the south."
+          ],
+          [
+            "0f",
+            "It continues 1.5 mi south and then terminates at Mount Zion Road."
+          ],
+          [
+            "0g",
+            "There are no low clearances or weight limits on this particular state route."
+          ],
+          [
+            "0h",
+            "As of 2009, this route has been relocated and improved."
+          ],
+          [
+            "0i",
+            "From the interchange of Interstate 71, it has been widened to three lanes with a center turn lane."
+          ],
+          [
+            "0j",
+            "It has been improved to the junction of State Route 22."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Oldham County is a county located in the commonwealth of Kentucky."
+          ],
+          [
+            "1b",
+            "As of the 2010 census, the population was 60,316."
+          ],
+          [
+            "1c",
+            "Its county seat is La Grange."
+          ],
+          [
+            "1d",
+            "The county is named for Colonel William Oldham."
+          ],
+          [
+            "1e",
+            "Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food."
+          ],
+          [
+            "1f",
+            "After a vote in late 2015; Oldham county has become a completely wet county."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Kentucky Route 1065 (KY 1065) is a 13.715 mi state highway located in Louisville, Kentucky."
+          ],
+          [
+            "2b",
+            "The western terminus of the route is at Kentucky Route 907 a short distance west of Kentucky Route 841 (Gene Snyder Freeway) exit 6 in the Louisville neighborhood of Auburndale."
+          ],
+          [
+            "2c",
+            "The eastern terminus is at Kentucky Route 1819 in Fern Creek."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Kentucky Route 155 (KY 155) is a 20.788 mi state highway in the U.S. state of Kentucky."
+          ],
+          [
+            "3b",
+            "The route originates at a junction with U.S. Route 31E and US 150 (Bardstown Road) in Louisville, Kentucky."
+          ],
+          [
+            "3c",
+            "On the other side of intersection, KY 155 becomes a local road called Trevilian Way."
+          ],
+          [
+            "3d",
+            "KY 155 continues through several Louisville suburbs to Jeffersontown, Kentucky and into Spencer County, where it eventually merges with Kentucky Route 55 a few miles north of Taylorsville, Kentucky."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "Kentucky Route 393 (KY 393) is a state highway in Oldham County, Kentucky."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence claims that KY 393 is a state highway in Oldham County, Kentucky. This is directly supported by Document 0, Sentence 0a.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0a"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response claims that Kentucky Route 393 is a state highway in Oldham County, Kentucky. This is supported by Document 0, Sentence 0a, which explicitly states that KY 393 is in Oldham County, Kentucky.",
+      "relevance_explanation": "Document 0 contains useful information because it specifically describes Kentucky Route 393 (KY 393). Document 1 provides context about Oldham County, which helps confirm the location. Documents 2 and 3 do not contain relevant information about KY 393 or its county.",
+      "all_relevant_sentence_keys": [
+        "0a",
+        "1a"
+      ],
+      "all_utilized_sentence_keys": [
+        "0a"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.043478260869565216,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.13043478260869565,
+      "gpt35_utilization": 0.08695652173913043,
+      "relevance_score": 0.08695652173913043,
+      "utilization_score": 0.043478260869565216,
+      "completeness_score": 0.5
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5ae1f079554299234fd04343"
+  },
+  {
+    "id": "5abb1fd95542996cc5e49fb6",
+    "question": "Mogens Palle brought to Denmark a World Lightweight Champion from where?",
+    "documents": [
+      "Mogens Palle (born 14 March 1934) is a Danish professional boxing promoter and manager. He was involved in more than 200 matches for European and world titles and worked with Ayub Kalule, Tom Bogs, Jimmy Bredahl, Thomas Damgaard, Brian Nielsen, Chris Christensen, Jørgen Hansen, Steffen Tangstad and Mikkel Kessler, among other boxers. In the mid-1960s he was the European manager of Sonny Liston, and in 2001 organized the match between Mike Tyson and Brian Nielsen in Denmark. He also brought to Denmark boxing stars like Carlos Monzon, Larry Holmes, Emile Griffith, Ken Buchanan and John Conteh. During his career he worked together with his father Thorkild and daughter Bettina. In 2008 he was inducted into the International Boxing Hall of Fame.",
+      "Vítor Ribeiro (born February 24, 1979 in Rio de Janeiro, Brazil) is a retired professional mixed martial artist who competed in the Lightweight division. A professional competitor since 2001, he has formerly competed for Strikeforce, Shooto, DREAM, Cage Rage, Cage Force, the World Fighting Alliance, and K-1 HERO'S. Ribeiro is the former Cage Rage World Lightweight Champion and the former Shooto World Lightweight Champion.",
+      "Ken Buchanan MBE (born 28 June 1945) is a British retired professional boxer and the former Undisputed World Lightweight Champion from Edinburgh.",
+      "Beau Jack (born Sidney Walker; April 1, 1921 – February 9, 2000) was an American lightweight boxer and two-time world lightweight champion in the 1940s. One of the most popular fighters during the War Years, he headlined at Madison Square Garden on twenty one occasions, a record that still stands. He was considered \"The greatest lightweight ever\" by Cus D'Amato, famous boxing trainer and manager."
+    ],
+    "response": "",
+    "context_relevance": 0.15384615384615385,
+    "context_utilization": 0.15384615384615385,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5abb1fd95542996cc5e49fb6",
+      "question": "Mogens Palle brought to Denmark a World Lightweight Champion from where?",
+      "documents": [
+        "Mogens Palle (born 14 March 1934) is a Danish professional boxing promoter and manager. He was involved in more than 200 matches for European and world titles and worked with Ayub Kalule, Tom Bogs, Jimmy Bredahl, Thomas Damgaard, Brian Nielsen, Chris Christensen, Jørgen Hansen, Steffen Tangstad and Mikkel Kessler, among other boxers. In the mid-1960s he was the European manager of Sonny Liston, and in 2001 organized the match between Mike Tyson and Brian Nielsen in Denmark. He also brought to Denmark boxing stars like Carlos Monzon, Larry Holmes, Emile Griffith, Ken Buchanan and John Conteh. During his career he worked together with his father Thorkild and daughter Bettina. In 2008 he was inducted into the International Boxing Hall of Fame.",
+        "Vítor Ribeiro (born February 24, 1979 in Rio de Janeiro, Brazil) is a retired professional mixed martial artist who competed in the Lightweight division. A professional competitor since 2001, he has formerly competed for Strikeforce, Shooto, DREAM, Cage Rage, Cage Force, the World Fighting Alliance, and K-1 HERO'S. Ribeiro is the former Cage Rage World Lightweight Champion and the former Shooto World Lightweight Champion.",
+        "Ken Buchanan MBE (born 28 June 1945) is a British retired professional boxer and the former Undisputed World Lightweight Champion from Edinburgh.",
+        "Beau Jack (born Sidney Walker; April 1, 1921 – February 9, 2000) was an American lightweight boxer and two-time world lightweight champion in the 1940s. One of the most popular fighters during the War Years, he headlined at Madison Square Garden on twenty one occasions, a record that still stands. He was considered \"The greatest lightweight ever\" by Cus D'Amato, famous boxing trainer and manager."
+      ],
+      "response": "Mogens Palle brought to Denmark a World Lightweight Champion from Edinburgh, as mentioned in the context about Ken Buchanan MBE.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Mogens Palle (born 14 March 1934) is a Danish professional boxing promoter and manager."
+          ],
+          [
+            "0b",
+            "He was involved in more than 200 matches for European and world titles and worked with Ayub Kalule, Tom Bogs, Jimmy Bredahl, Thomas Damgaard, Brian Nielsen, Chris Christensen, Jørgen Hansen, Steffen Tangstad and Mikkel Kessler, among other boxers."
+          ],
+          [
+            "0c",
+            "In the mid-1960s he was the European manager of Sonny Liston, and in 2001 organized the match between Mike Tyson and Brian Nielsen in Denmark."
+          ],
+          [
+            "0d",
+            "He also brought to Denmark boxing stars like Carlos Monzon, Larry Holmes, Emile Griffith, Ken Buchanan and John Conteh."
+          ],
+          [
+            "0e",
+            "During his career he worked together with his father Thorkild and daughter Bettina."
+          ],
+          [
+            "0f",
+            "In 2008 he was inducted into the International Boxing Hall of Fame."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Vítor Ribeiro (born February 24, 1979 in Rio de Janeiro, Brazil) is a retired professional mixed martial artist who competed in the Lightweight division."
+          ],
+          [
+            "1b",
+            "A professional competitor since 2001, he has formerly competed for Strikeforce, Shooto, DREAM, Cage Rage, Cage Force, the World Fighting Alliance, and K-1 HERO'S."
+          ],
+          [
+            "1c",
+            "Ribeiro is the former Cage Rage World Lightweight Champion and the former Shooto World Lightweight Champion."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Ken Buchanan MBE (born 28 June 1945) is a British retired professional boxer and the former Undisputed World Lightweight Champion from Edinburgh."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Beau Jack (born Sidney Walker; April 1, 1921 – February 9, 2000) was an American lightweight boxer and two-time world lightweight champion in the 1940s."
+          ],
+          [
+            "3b",
+            "One of the most popular fighters during the War Years, he headlined at Madison Square Garden on twenty one occasions, a record that still stands."
+          ],
+          [
+            "3c",
+            "He was considered \"The greatest lightweight ever\" by Cus D'Amato, famous boxing trainer and manager."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "Mogens Palle brought to Denmark a World Lightweight Champion from Edinburgh, as mentioned in the context about Ken Buchanan MBE."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence claims that Mogens Palle brought to Denmark a World Lightweight Champion from Edinburgh, specifically Ken Buchanan. This information is supported by Sentence 0d, which mentions that Palle brought Ken Buchanan to Denmark, and Sentence 2a, which identifies Ken Buchanan as a former Undisputed World Lightweight Champion from Edinburgh.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0d",
+            "2a"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response claims that Mogens Palle brought a World Lightweight Champion from Edinburgh to Denmark, specifically referring to Ken Buchanan. This claim is fully supported by Document 0, Sentences 0d and Document 2, Sentence 2a. Thus, the response is accurate and fully supported by the provided documents.",
+      "relevance_explanation": "Document 0 contains useful information for answering the question since it explains Mogens Palle's career and mentions the boxing stars he brought to Denmark. Document 2 is relevant as it provides specific information about Ken Buchanan being a former Undisputed World Lightweight Champion from Edinburgh, which relates directly to the question.",
+      "all_relevant_sentence_keys": [
+        "0d",
+        "2a"
+      ],
+      "all_utilized_sentence_keys": [
+        "0d",
+        "2a"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 0.9,
+      "ragas_faithfulness": 0.0,
+      "ragas_context_relevance": 0.0,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.23076923076923078,
+      "gpt35_utilization": 0.15384615384615385,
+      "relevance_score": 0.15384615384615385,
+      "utilization_score": 0.15384615384615385,
+      "completeness_score": 1.0
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5abb1fd95542996cc5e49fb6"
+  },
+  {
+    "id": "5a7331de5542994cef4bc4a8",
+    "question": "If the Charhki  Dadri crash was less dangerous than the Tenerife airport disaster, which occured firat? ",
+    "documents": [
+      "The Charkhi Dadri mid-air collision occurred on 12 November 1996 over the village of Charkhi Dadri, to the west of New Delhi, India. The aircraft involved were a Saudi Arabian Airlines Boeing 747-100B en route from Delhi to Dhahran, Saudi Arabia, and a Kazakhstan Airlines Ilyushin Il-76 en route from Chimkent, Kazakhstan, to Delhi. The crash killed all 349 people on board both planes, making it the world's deadliest mid-air collision, the deadliest aviation accident to occur in India, and the third-deadliest aircraft accident in the history of aviation, behind only the Tenerife airport disaster and Japan Airlines Flight 123.",
+      "On March 27, 1977, two Boeing 747 passenger jets, KLM Flight 4805 and Pan Am Flight 1736, collided on the runway at Los Rodeos Airport (now Tenerife North Airport), on the Spanish island of Tenerife, Canary Islands, killing 583 people in the deadliest accident in aviation history.",
+      "Tenerife South Airport (Spanish: \"Aeropuerto de Tenerife Sur\" ) (IATA: TFS, ICAO: GCTS) , previously known as Tenerife South–Reina Sofia Airport, is the larger of the two international airports located on the island of Tenerife (the other being Tenerife North Airport) and the second busiest in the Canary Islands (after Gran Canaria Airport). It is located in the municipality of Granadilla de Abona and handled over 9 million passengers in 2014.",
+      "The 1938 Jersey Airport disaster occurred at 10:50am on Friday 4 November 1938 when the Jersey Airways de Havilland D.H.86 airliner \"St Catherine's Bay\" (G-ACZN) crashed in the parish of Saint Brélade, 500 yards east of Jersey Airport, killing the pilot and all twelve passengers on board as well as farm hand Edmund Le Cornu, who was working on the ground. In terms of loss of life, it was the worst crash of a rigid aircraft on British territory to date and the second-worst overall crash of a British rigid aircraft after the crash of an Imperial Airways airliner in Belgium in 1933 (in which 15 people died)."
+    ],
+    "response": "",
+    "context_relevance": 0.375,
+    "context_utilization": 0.25,
+    "completeness": 0.6666666666666666,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5a7331de5542994cef4bc4a8",
+      "question": "If the Charhki  Dadri crash was less dangerous than the Tenerife airport disaster, which occured firat? ",
+      "documents": [
+        "The Charkhi Dadri mid-air collision occurred on 12 November 1996 over the village of Charkhi Dadri, to the west of New Delhi, India. The aircraft involved were a Saudi Arabian Airlines Boeing 747-100B en route from Delhi to Dhahran, Saudi Arabia, and a Kazakhstan Airlines Ilyushin Il-76 en route from Chimkent, Kazakhstan, to Delhi. The crash killed all 349 people on board both planes, making it the world's deadliest mid-air collision, the deadliest aviation accident to occur in India, and the third-deadliest aircraft accident in the history of aviation, behind only the Tenerife airport disaster and Japan Airlines Flight 123.",
+        "On March 27, 1977, two Boeing 747 passenger jets, KLM Flight 4805 and Pan Am Flight 1736, collided on the runway at Los Rodeos Airport (now Tenerife North Airport), on the Spanish island of Tenerife, Canary Islands, killing 583 people in the deadliest accident in aviation history.",
+        "Tenerife South Airport (Spanish: \"Aeropuerto de Tenerife Sur\" ) (IATA: TFS, ICAO: GCTS) , previously known as Tenerife South–Reina Sofia Airport, is the larger of the two international airports located on the island of Tenerife (the other being Tenerife North Airport) and the second busiest in the Canary Islands (after Gran Canaria Airport). It is located in the municipality of Granadilla de Abona and handled over 9 million passengers in 2014.",
+        "The 1938 Jersey Airport disaster occurred at 10:50am on Friday 4 November 1938 when the Jersey Airways de Havilland D.H.86 airliner \"St Catherine's Bay\" (G-ACZN) crashed in the parish of Saint Brélade, 500 yards east of Jersey Airport, killing the pilot and all twelve passengers on board as well as farm hand Edmund Le Cornu, who was working on the ground. In terms of loss of life, it was the worst crash of a rigid aircraft on British territory to date and the second-worst overall crash of a British rigid aircraft after the crash of an Imperial Airways airliner in Belgium in 1933 (in which 15 people died)."
+      ],
+      "response": "The Tenerife airport disaster occurred first.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "The Charkhi Dadri mid-air collision occurred on 12 November 1996 over the village of Charkhi Dadri, to the west of New Delhi, India."
+          ],
+          [
+            "0b",
+            "The aircraft involved were a Saudi Arabian Airlines Boeing 747-100B en route from Delhi to Dhahran, Saudi Arabia, and a Kazakhstan Airlines Ilyushin Il-76 en route from Chimkent, Kazakhstan, to Delhi."
+          ],
+          [
+            "0c",
+            "The crash killed all 349 people on board both planes, making it the world's deadliest mid-air collision, the deadliest aviation accident to occur in India, and the third-deadliest aircraft accident in the history of aviation, behind only the Tenerife airport disaster and Japan Airlines Flight 123."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "On March 27, 1977, two Boeing 747 passenger jets, KLM Flight 4805 and Pan Am Flight 1736, collided on the runway at Los Rodeos Airport (now Tenerife North Airport), on the Spanish island of Tenerife, Canary Islands, killing 583 people in the deadliest accident in aviation history."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Tenerife South Airport (Spanish: \"Aeropuerto de Tenerife Sur\" ) (IATA: TFS, ICAO: GCTS) , previously known as Tenerife South–Reina Sofia Airport, is the larger of the two international airports located on the island of Tenerife (the other being Tenerife North Airport) and the second busiest in the Canary Islands (after Gran Canaria Airport)."
+          ],
+          [
+            "2b",
+            "It is located in the municipality of Granadilla de Abona and handled over 9 million passengers in 2014."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "The 1938 Jersey Airport disaster occurred at 10:50am on Friday 4 November 1938 when the Jersey Airways de Havilland D.H.86 airliner \"St Catherine's Bay\" (G-ACZN) crashed in the parish of Saint Brélade, 500 yards east of Jersey Airport, killing the pilot and all twelve passengers on board as well as farm hand Edmund Le Cornu, who was working on the ground."
+          ],
+          [
+            "3b",
+            "In terms of loss of life, it was the worst crash of a rigid aircraft on British territory to date and the second-worst overall crash of a British rigid aircraft after the crash of an Imperial Airways airliner in Belgium in 1933 (in which 15 people died)."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The Tenerife airport disaster occurred first."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence claims that the Tenerife airport disaster occurred first. Document 0a provides the date of the Charkhi Dadri collision (12 November 1996), and document 1a provides the date of the Tenerife airport disaster (March 27, 1977). These dates confirm that the Tenerife disaster occurred first.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0a",
+            "1a"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The claim made in the response is that the Tenerife airport disaster occurred first. Document 0a states that the Charkhi Dadri collision happened on 12 November 1996, and document 1a states that the Tenerife airport disaster occurred on March 27, 1977. Based on these dates, it is clear that the Tenerife disaster occurred first. Therefore, the response is fully supported by the documents.",
+      "relevance_explanation": "Documents 0 and 1 are relevant for answering the question. Document 0 provides information about the Charkhi Dadri mid-air collision, including its date and its status as the deadliest mid-air collision. Document 1 discusses the Tenerife airport disaster, including its date and its status as the deadliest accident in aviation history. These documents provide the necessary details to compare the dates and severities of the two incidents.",
+      "all_relevant_sentence_keys": [
+        "0a",
+        "0c",
+        "1a"
+      ],
+      "all_utilized_sentence_keys": [
+        "0a",
+        "1a"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.375,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.25,
+      "gpt35_utilization": 0.25,
+      "relevance_score": 0.375,
+      "utilization_score": 0.25,
+      "completeness_score": 0.6666666666666666
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5a7331de5542994cef4bc4a8"
+  },
+  {
+    "id": "5a7b1d3b5542992d025e677a",
+    "question": "What memorial park located at John J. Pershing Drive in North Omaha has, among other amenities, a baseball park?",
+    "documents": [
+      "Stardust Memorial Park (Irish: An Pháirc Cuimhneacháin Stardust ), also known as the Stardust Memorial Garden, is a protected memorial park located in Coolock, Dublin built to commemorate the lives of those who died in the Stardust nightclub 1981 fire in Artane, Dublin. The park was officially completed and opened on 18 September 1993, by the then Lord Mayor of Dublin, Tomás MacGiolla. The memorial represents a circular pool with a bronze sculpture of a dancing couple in the middle, and the memorial was designed by the sculptor, Robin Buick. Water is pumped by 48 jets in the illuminated fountain which surrounds the sculpture. The fountain is enclosed by 48 pillars, each pillar representing a person lost in the tragedy. In the memorial park, there is a number of facilities open to the public including a newly renovated playground and a garden terrace. The park comprises 20 acres along the Santry River. The land was originally a 12th-century monastic site.",
+      "A baseball field, also called a ball field or a baseball diamond, is the field upon which the game of baseball is played. The term can also be used as a metonym for a baseball park.",
+      "The Florence Water Works is located along John J. Pershing Drive in the Florence neighborhood of Omaha, Nebraska. Home of the Minne Lusa Pumping Station, the Water Works has provided water throughout the city of Omaha since 1880.",
+      "N.P. Dodge Memorial Park, or simply Dodge Park, is a recreational area located at 11001 John J. Pershing Drive in North Omaha, Nebraska, United States. Located on the Missouri River, the park provides fishing, water skiing, and boating, as well as hiking throughout its riparian forests. Baseball fields, soccer fields, horseshoe pits, and tennis courts are included for sporting events. There is a picnic area, pavilions, historical monuments, and a campground."
+    ],
+    "response": "",
+    "context_relevance": 0.125,
+    "context_utilization": 0.125,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5a7b1d3b5542992d025e677a",
+      "question": "What memorial park located at John J. Pershing Drive in North Omaha has, among other amenities, a baseball park?",
+      "documents": [
+        "Stardust Memorial Park (Irish: An Pháirc Cuimhneacháin Stardust ), also known as the Stardust Memorial Garden, is a protected memorial park located in Coolock, Dublin built to commemorate the lives of those who died in the Stardust nightclub 1981 fire in Artane, Dublin. The park was officially completed and opened on 18 September 1993, by the then Lord Mayor of Dublin, Tomás MacGiolla. The memorial represents a circular pool with a bronze sculpture of a dancing couple in the middle, and the memorial was designed by the sculptor, Robin Buick. Water is pumped by 48 jets in the illuminated fountain which surrounds the sculpture. The fountain is enclosed by 48 pillars, each pillar representing a person lost in the tragedy. In the memorial park, there is a number of facilities open to the public including a newly renovated playground and a garden terrace. The park comprises 20 acres along the Santry River. The land was originally a 12th-century monastic site.",
+        "A baseball field, also called a ball field or a baseball diamond, is the field upon which the game of baseball is played. The term can also be used as a metonym for a baseball park.",
+        "The Florence Water Works is located along John J. Pershing Drive in the Florence neighborhood of Omaha, Nebraska. Home of the Minne Lusa Pumping Station, the Water Works has provided water throughout the city of Omaha since 1880.",
+        "N.P. Dodge Memorial Park, or simply Dodge Park, is a recreational area located at 11001 John J. Pershing Drive in North Omaha, Nebraska, United States. Located on the Missouri River, the park provides fishing, water skiing, and boating, as well as hiking throughout its riparian forests. Baseball fields, soccer fields, horseshoe pits, and tennis courts are included for sporting events. There is a picnic area, pavilions, historical monuments, and a campground."
+      ],
+      "response": "N.P. Dodge Memorial Park, also known as Dodge Park, located at 11001 John J. Pershing Drive in North Omaha, has a baseball park among its amenities.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Stardust Memorial Park (Irish: An Pháirc Cuimhneacháin Stardust ), also known as the Stardust Memorial Garden, is a protected memorial park located in Coolock, Dublin built to commemorate the lives of those who died in the Stardust nightclub 1981 fire in Artane, Dublin."
+          ],
+          [
+            "0b",
+            "The park was officially completed and opened on 18 September 1993, by the then Lord Mayor of Dublin, Tomás MacGiolla."
+          ],
+          [
+            "0c",
+            "The memorial represents a circular pool with a bronze sculpture of a dancing couple in the middle, and the memorial was designed by the sculptor, Robin Buick."
+          ],
+          [
+            "0d",
+            "Water is pumped by 48 jets in the illuminated fountain which surrounds the sculpture."
+          ],
+          [
+            "0e",
+            "The fountain is enclosed by 48 pillars, each pillar representing a person lost in the tragedy."
+          ],
+          [
+            "0f",
+            "In the memorial park, there is a number of facilities open to the public including a newly renovated playground and a garden terrace."
+          ],
+          [
+            "0g",
+            "The park comprises 20 acres along the Santry River."
+          ],
+          [
+            "0h",
+            "The land was originally a 12th-century monastic site."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "A baseball field, also called a ball field or a baseball diamond, is the field upon which the game of baseball is played."
+          ],
+          [
+            "1b",
+            "The term can also be used as a metonym for a baseball park."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "The Florence Water Works is located along John J. Pershing Drive in the Florence neighborhood of Omaha, Nebraska."
+          ],
+          [
+            "2b",
+            "Home of the Minne Lusa Pumping Station, the Water Works has provided water throughout the city of Omaha since 1880."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "N.P. Dodge Memorial Park, or simply Dodge Park, is a recreational area located at 11001 John J. Pershing Drive in North Omaha, Nebraska, United States."
+          ],
+          [
+            "3b",
+            "Located on the Missouri River, the park provides fishing, water skiing, and boating, as well as hiking throughout its riparian forests."
+          ],
+          [
+            "3c",
+            "Baseball fields, soccer fields, horseshoe pits, and tennis courts are included for sporting events."
+          ],
+          [
+            "3d",
+            "There is a picnic area, pavilions, historical monuments, and a campground."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "N.P. Dodge Memorial Park, also known as Dodge Park, located at 11001 John J. Pershing Drive in North Omaha, has a baseball park among its amenities."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence is supported because Document 3 provides both the name and specific location of N.P. Dodge Memorial Park (3a) and also mentions the inclusion of baseball fields among its amenities (3c).",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "3a",
+            "3c"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response makes two specific claims: (1) The name and location of the memorial park, and (2) the amenities of the park, specifically mentioning a baseball park. \n(1) The name and location of the memorial park: The statement \"N.P. Dodge Memorial Park, also known as Dodge Park, located at 11001 John J. Pershing Drive in North Omaha\" is supported by sentence 3a, which provides the name, alternative name, and precise location of the park. \n(2) The amenities of the park: The statement \"has a baseball park among its amenities\" is supported by sentence 3c which mentions that Dodge Park includes baseball fields.",
+      "relevance_explanation": "Document 3 contains useful information for answering the question. Specific sentences from Document 3 provide the name and location of the memorial park, as well as the amenities, which include a baseball park. It directly talks about N.P. Dodge Memorial Park (Dodge Park) being located on John J. Pershing Drive in North Omaha and mentions the presence of baseball fields.",
+      "all_relevant_sentence_keys": [
+        "3a",
+        "3c"
+      ],
+      "all_utilized_sentence_keys": [
+        "3a",
+        "3c"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 0.8,
+      "ragas_faithfulness": 0.5,
+      "ragas_context_relevance": 0.0,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.1875,
+      "gpt35_utilization": 0.125,
+      "relevance_score": 0.125,
+      "utilization_score": 0.125,
+      "completeness_score": 1.0
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5a7b1d3b5542992d025e677a"
+  },
+  {
+    "id": "5ab2f85b55429929539468dc",
+    "question": "The Oera Linda Book is a manuscript written in a language spoken between what centuries?",
+    "documents": [
+      "The Oera Linda Book is a manuscript written in a form of Old Frisian, purporting to cover historical, mythological, and religious themes of remote antiquity, from 2194 BCE to 803 CE. Among academics in Germanic philology, the document is widely considered to be a hoax or forgery.",
+      "The Wenceslas Bible (German: \"Wenzelsbibel\" ) or the Bible of Wenceslaus IV (Czech: \"Bible Václava IV.\" ) is a multi-volume illuminated biblical manuscript written in the German language. The manuscript was commissioned by the King Wenceslaus IV of Bohemia (that time also the King of the Romans) and made in Prague in the 1390s. The Wenceslas Bible is unique and very precious not only because of its text, which is one of the earliest German translations of the Bible, but also because of its splendid illuminations. This oldest German deluxe Bible manuscript remained uncompleted.",
+      "Old Frisian is a West Germanic language spoken between the 8th and 16th centuries in the area between the Rhine and Weser on the European North Sea coast. The Frisian settlers on the coast of South Jutland (today's Northern Friesland) also spoke Old Frisian but no medieval texts of this area are known. The language of the earlier inhabitants of the region between the Zuiderzee and Ems River (the Frisians mentioned by Tacitus) is attested in only a few personal names and place-names. Old Frisian evolved into Middle Frisian, spoken from the 16th to the 19th century.",
+      "The Ida'an (also Idahan) language is a Malayo-Polynesian language spoken by the Ida'an people of Sabah, Malaysia. The language has a long literary history, the first known writing in Idahan language was a manuscript dated 1408 A.D. The Jawi manuscript gives an account of an Ida'an man named Abdullah in Darvel Bay who embraced Islam and became one of the earliest known regions in Malaysia to embraced Islam."
+    ],
+    "response": "",
+    "context_relevance": 0.14285714285714285,
+    "context_utilization": 0.14285714285714285,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5ab2f85b55429929539468dc",
+      "question": "The Oera Linda Book is a manuscript written in a language spoken between what centuries?",
+      "documents": [
+        "The Oera Linda Book is a manuscript written in a form of Old Frisian, purporting to cover historical, mythological, and religious themes of remote antiquity, from 2194 BCE to 803 CE. Among academics in Germanic philology, the document is widely considered to be a hoax or forgery.",
+        "The Wenceslas Bible (German: \"Wenzelsbibel\" ) or the Bible of Wenceslaus IV (Czech: \"Bible Václava IV.\" ) is a multi-volume illuminated biblical manuscript written in the German language. The manuscript was commissioned by the King Wenceslaus IV of Bohemia (that time also the King of the Romans) and made in Prague in the 1390s. The Wenceslas Bible is unique and very precious not only because of its text, which is one of the earliest German translations of the Bible, but also because of its splendid illuminations. This oldest German deluxe Bible manuscript remained uncompleted.",
+        "Old Frisian is a West Germanic language spoken between the 8th and 16th centuries in the area between the Rhine and Weser on the European North Sea coast. The Frisian settlers on the coast of South Jutland (today's Northern Friesland) also spoke Old Frisian but no medieval texts of this area are known. The language of the earlier inhabitants of the region between the Zuiderzee and Ems River (the Frisians mentioned by Tacitus) is attested in only a few personal names and place-names. Old Frisian evolved into Middle Frisian, spoken from the 16th to the 19th century.",
+        "The Ida'an (also Idahan) language is a Malayo-Polynesian language spoken by the Ida'an people of Sabah, Malaysia. The language has a long literary history, the first known writing in Idahan language was a manuscript dated 1408 A.D. The Jawi manuscript gives an account of an Ida'an man named Abdullah in Darvel Bay who embraced Islam and became one of the earliest known regions in Malaysia to embraced Islam."
+      ],
+      "response": "The Oera Linda Book is a manuscript written in Old Frisian, which is a West Germanic language spoken between the 8th and 16th centuries.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "The Oera Linda Book is a manuscript written in a form of Old Frisian, purporting to cover historical, mythological, and religious themes of remote antiquity, from 2194 BCE to 803 CE."
+          ],
+          [
+            "0b",
+            "Among academics in Germanic philology, the document is widely considered to be a hoax or forgery."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "The Wenceslas Bible (German: \"Wenzelsbibel\" ) or the Bible of Wenceslaus IV (Czech: \"Bible Václava IV.\""
+          ],
+          [
+            "1b",
+            ") is a multi-volume illuminated biblical manuscript written in the German language."
+          ],
+          [
+            "1c",
+            "The manuscript was commissioned by the King Wenceslaus IV of Bohemia (that time also the King of the Romans) and made in Prague in the 1390s."
+          ],
+          [
+            "1d",
+            "The Wenceslas Bible is unique and very precious not only because of its text, which is one of the earliest German translations of the Bible, but also because of its splendid illuminations."
+          ],
+          [
+            "1e",
+            "This oldest German deluxe Bible manuscript remained uncompleted."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Old Frisian is a West Germanic language spoken between the 8th and 16th centuries in the area between the Rhine and Weser on the European North Sea coast."
+          ],
+          [
+            "2b",
+            "The Frisian settlers on the coast of South Jutland (today's Northern Friesland) also spoke Old Frisian but no medieval texts of this area are known."
+          ],
+          [
+            "2c",
+            "The language of the earlier inhabitants of the region between the Zuiderzee and Ems River (the Frisians mentioned by Tacitus) is attested in only a few personal names and place-names."
+          ],
+          [
+            "2d",
+            "Old Frisian evolved into Middle Frisian, spoken from the 16th to the 19th century."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "The Ida'an (also Idahan) language is a Malayo-Polynesian language spoken by the Ida'an people of Sabah, Malaysia."
+          ],
+          [
+            "3b",
+            "The language has a long literary history, the first known writing in Idahan language was a manuscript dated 1408 A.D."
+          ],
+          [
+            "3c",
+            "The Jawi manuscript gives an account of an Ida'an man named Abdullah in Darvel Bay who embraced Islam and became one of the earliest known regions in Malaysia to embraced Islam."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "The Oera Linda Book is a manuscript written in Old Frisian, which is a West Germanic language spoken between the 8th and 16th centuries."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence concatenates information from two documents: Document 0 identifies the Oera Linda Book as being written in Old Frisian, and Document 2 specifies that Old Frisian was spoken between the 8th and 16th centuries.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0a",
+            "2a"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response makes two main claims: (1) The Oera Linda Book is a manuscript written in Old Frisian, and (2) Old Frisian is a West Germanic language spoken between the 8th and 16th centuries. Claim 1 is supported by Document 0, which states that the Oera Linda Book is written in a form of Old Frisian. Claim 2 is supported by Document 2, which states that Old Frisian is a West Germanic language spoken between the 8th and 16th centuries.",
+      "relevance_explanation": "Document 0 and Document 2 contain useful information for answering the question. Document 0 specifies that the Oera Linda Book is written in Old Frisian. Document 2 provides the time period in which Old Frisian was spoken, between the 8th and 16th centuries.",
+      "all_relevant_sentence_keys": [
+        "0a",
+        "2a"
+      ],
+      "all_utilized_sentence_keys": [
+        "0a",
+        "2a"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 0.9,
+      "ragas_faithfulness": 0.6666666666666666,
+      "ragas_context_relevance": 0.16666666666666666,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.14285714285714285,
+      "gpt35_utilization": 0.14285714285714285,
+      "relevance_score": 0.14285714285714285,
+      "utilization_score": 0.14285714285714285,
+      "completeness_score": 1.0
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5ab2f85b55429929539468dc"
+  },
+  {
+    "id": "5ae1892f5542997b2ef7d1f3",
+    "question": "When was  Evelyn Waugh famous work first published ",
+    "documents": [
+      "Brideshead Revisited, The Sacred & Profane Memories of Captain Charles Ryder is a novel by English writer Evelyn Waugh, first published in 1945. It follows, from the 1920s to the early 1940s, the life and romances of the protagonist Charles Ryder, including his friendship with the Flytes, a family of wealthy English Catholics who live in a palatial mansion called Brideshead Castle. Ryder has relationships with two of the Flytes: Sebastian and Julia. The novel explores themes including nostalgia for the age of English aristocracy, Catholicism, and the nearly overt homosexuality of Sebastian Flyte's coterie at Oxford University. A faithful and well-received television adaptation of the novel was produced in an 11-part miniseries by Granada Television in 1981.",
+      "Arthur Evelyn St. John Waugh ( ; 28 October 1903 – 10 April 1966) was an English writer of novels, biographies and travel books. He was also a prolific journalist and reviewer of books. His most famous works include the early satires \"Decline and Fall\" (1928) and \"A Handful of Dust\" (1934), the novel \"Brideshead Revisited\" (1945) and the Second World War trilogy \"Sword of Honour\" (1952–61). Waugh is recognised as one of the great prose stylists of the English language in the 20th century.",
+      "The Ordeal of Gilbert Pinfold is a novel by the British writer Evelyn Waugh, first published in July 1957. It is Waugh's penultimate full-length work of fiction, which the author called his \"mad book\"—a largely autobiographical account of a period of hallucinations caused by bromide intoxication that he experienced in the early months of 1954, recounted through his protagonist Gilbert Pinfold.",
+      "A Severe Mercy is an autobiographical book by Sheldon Vanauken, relating the author's relationship with his wife, their friendship with C. S. Lewis, conversion to Christianity, and subsequent tragedy. It was first published in 1977. The book is strongly influenced, at least stylistically, by the Evelyn Waugh novel Brideshead Revisited. It was followed by a sequel, \"Under the Mercy\", first published in 1985."
+    ],
+    "response": "",
+    "context_relevance": 0.13333333333333333,
+    "context_utilization": 0.06666666666666667,
+    "completeness": 0.5,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5ae1892f5542997b2ef7d1f3",
+      "question": "When was  Evelyn Waugh famous work first published ",
+      "documents": [
+        "Brideshead Revisited, The Sacred & Profane Memories of Captain Charles Ryder is a novel by English writer Evelyn Waugh, first published in 1945. It follows, from the 1920s to the early 1940s, the life and romances of the protagonist Charles Ryder, including his friendship with the Flytes, a family of wealthy English Catholics who live in a palatial mansion called Brideshead Castle. Ryder has relationships with two of the Flytes: Sebastian and Julia. The novel explores themes including nostalgia for the age of English aristocracy, Catholicism, and the nearly overt homosexuality of Sebastian Flyte's coterie at Oxford University. A faithful and well-received television adaptation of the novel was produced in an 11-part miniseries by Granada Television in 1981.",
+        "Arthur Evelyn St. John Waugh ( ; 28 October 1903 – 10 April 1966) was an English writer of novels, biographies and travel books. He was also a prolific journalist and reviewer of books. His most famous works include the early satires \"Decline and Fall\" (1928) and \"A Handful of Dust\" (1934), the novel \"Brideshead Revisited\" (1945) and the Second World War trilogy \"Sword of Honour\" (1952–61). Waugh is recognised as one of the great prose stylists of the English language in the 20th century.",
+        "The Ordeal of Gilbert Pinfold is a novel by the British writer Evelyn Waugh, first published in July 1957. It is Waugh's penultimate full-length work of fiction, which the author called his \"mad book\"—a largely autobiographical account of a period of hallucinations caused by bromide intoxication that he experienced in the early months of 1954, recounted through his protagonist Gilbert Pinfold.",
+        "A Severe Mercy is an autobiographical book by Sheldon Vanauken, relating the author's relationship with his wife, their friendship with C. S. Lewis, conversion to Christianity, and subsequent tragedy. It was first published in 1977. The book is strongly influenced, at least stylistically, by the Evelyn Waugh novel Brideshead Revisited. It was followed by a sequel, \"Under the Mercy\", first published in 1985."
+      ],
+      "response": "Evelyn Waugh's famous work, \"Brideshead Revisited,\" was first published in 1945.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Brideshead Revisited, The Sacred & Profane Memories of Captain Charles Ryder is a novel by English writer Evelyn Waugh, first published in 1945."
+          ],
+          [
+            "0b",
+            "It follows, from the 1920s to the early 1940s, the life and romances of the protagonist Charles Ryder, including his friendship with the Flytes, a family of wealthy English Catholics who live in a palatial mansion called Brideshead Castle."
+          ],
+          [
+            "0c",
+            "Ryder has relationships with two of the Flytes: Sebastian and Julia."
+          ],
+          [
+            "0d",
+            "The novel explores themes including nostalgia for the age of English aristocracy, Catholicism, and the nearly overt homosexuality of Sebastian Flyte's coterie at Oxford University."
+          ],
+          [
+            "0e",
+            "A faithful and well-received television adaptation of the novel was produced in an 11-part miniseries by Granada Television in 1981."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Arthur Evelyn St. John Waugh ( ; 28 October 1903 – 10 April 1966) was an English writer of novels, biographies and travel books."
+          ],
+          [
+            "1b",
+            "He was also a prolific journalist and reviewer of books."
+          ],
+          [
+            "1c",
+            "His most famous works include the early satires \"Decline and Fall\" (1928) and \"A Handful of Dust\" (1934), the novel \"Brideshead Revisited\" (1945) and the Second World War trilogy \"Sword of Honour\" (1952–61)."
+          ],
+          [
+            "1d",
+            "Waugh is recognised as one of the great prose stylists of the English language in the 20th century."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "The Ordeal of Gilbert Pinfold is a novel by the British writer Evelyn Waugh, first published in July 1957."
+          ],
+          [
+            "2b",
+            "It is Waugh's penultimate full-length work of fiction, which the author called his \"mad book\"—a largely autobiographical account of a period of hallucinations caused by bromide intoxication that he experienced in the early months of 1954, recounted through his protagonist Gilbert Pinfold."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "A Severe Mercy is an autobiographical book by Sheldon Vanauken, relating the author's relationship with his wife, their friendship with C. S. Lewis, conversion to Christianity, and subsequent tragedy."
+          ],
+          [
+            "3b",
+            "It was first published in 1977."
+          ],
+          [
+            "3c",
+            "The book is strongly influenced, at least stylistically, by the Evelyn Waugh novel Brideshead Revisited."
+          ],
+          [
+            "3d",
+            "It was followed by a sequel, \"Under the Mercy\", first published in 1985."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "Evelyn Waugh's famous work, \"Brideshead Revisited,\" was first published in 1945."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "The sentence states that 'Brideshead Revisited' was first published in 1945, which is fully supported by sentence 0a in Document 0.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0a"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response consists of a single sentence stating that 'Brideshead Revisited' was first published in 1945. This claim is directly supported by sentence 0a in Document 0, which explicitly mentions that the novel was first published in 1945.",
+      "relevance_explanation": "Document 0 and Document 1 contain useful information for answering the question about when Evelyn Waugh's famous work 'Brideshead Revisited' was first published. Document 0 provides the publication date directly. Document 1 lists 'Brideshead Revisited' among Waugh's famous works, confirming its status, but does not provide the publication date.",
+      "all_relevant_sentence_keys": [
+        "0a",
+        "1c"
+      ],
+      "all_utilized_sentence_keys": [
+        "0a"
+      ],
+      "trulens_groundedness": 1.0,
+      "trulens_context_relevance": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ragas_context_relevance": 0.06666666666666667,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.13333333333333333,
+      "gpt35_utilization": 0.06666666666666667,
+      "relevance_score": 0.13333333333333333,
+      "utilization_score": 0.06666666666666667,
+      "completeness_score": 0.5
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5ae1892f5542997b2ef7d1f3"
+  },
+  {
+    "id": "5add60905542995b365fab1d",
+    "question": "What do Victor Salva and Emilio Fernández have in common?",
+    "documents": [
+      "Emilio \"El Indio\" Fernández (born Emilio Fernández Romo, ] ; March 26, 1904 – August 6, 1986) was a Mexican film director, actor and screenwriter. He was one of the most prolific film directors of the Golden Age of Mexican cinema in the 1940s and 1950s. He is best known for his work as director of the film \"Maria Candelaria\" (1944), which won the Palme d'Or award at the 1946 Cannes Film Festival. As an actor, he worked in numerous film productions in Mexico and in Hollywood.",
+      "Bugambilia (\"Bougainvillea\") is a Mexican movie of 1945 directed by Emilio Fernández and starring Dolores del Río and Pedro Armendáriz.",
+      "Victor Ronald Salva (born March 29, 1958) is an American film director and screenwriter. He directed the films \"Powder\" (1995) and \"Jeepers Creepers\" (2001). The latter of these has been expanded into a franchise with two sequels that he has also directed.",
+      "Jaime Fernández Reyes (December 6, 1937 – April 15, 2005) was a Mexican actor. Over his career, he won 3 Silver Ariel awards - the Mexican equivalent of the Oscar - including one for what is arguably his best-known role, playing Friday in Luis Buñuel's \"Robinson Crusoe\". He appeared in over 200 films and served as the General Secretary of the Mexican actors' union for 11 years. His older brother was actor/director Emilio Fernández."
+    ],
+    "response": "",
+    "context_relevance": 0.16666666666666666,
+    "context_utilization": 0.16666666666666666,
+    "completeness": 1.0,
+    "adherence": 1.0,
+    "_original": {
+      "id": "5add60905542995b365fab1d",
+      "question": "What do Victor Salva and Emilio Fernández have in common?",
+      "documents": [
+        "Emilio \"El Indio\" Fernández (born Emilio Fernández Romo, ] ; March 26, 1904 – August 6, 1986) was a Mexican film director, actor and screenwriter. He was one of the most prolific film directors of the Golden Age of Mexican cinema in the 1940s and 1950s. He is best known for his work as director of the film \"Maria Candelaria\" (1944), which won the Palme d'Or award at the 1946 Cannes Film Festival. As an actor, he worked in numerous film productions in Mexico and in Hollywood.",
+        "Bugambilia (\"Bougainvillea\") is a Mexican movie of 1945 directed by Emilio Fernández and starring Dolores del Río and Pedro Armendáriz.",
+        "Victor Ronald Salva (born March 29, 1958) is an American film director and screenwriter. He directed the films \"Powder\" (1995) and \"Jeepers Creepers\" (2001). The latter of these has been expanded into a franchise with two sequels that he has also directed.",
+        "Jaime Fernández Reyes (December 6, 1937 – April 15, 2005) was a Mexican actor. Over his career, he won 3 Silver Ariel awards - the Mexican equivalent of the Oscar - including one for what is arguably his best-known role, playing Friday in Luis Buñuel's \"Robinson Crusoe\". He appeared in over 200 films and served as the General Secretary of the Mexican actors' union for 11 years. His older brother was actor/director Emilio Fernández."
+      ],
+      "response": "Both Victor Salva and Emilio Fernández are film directors and screenwriters.",
+      "generation_model_name": "gpt-3.5-turbo-1106",
+      "annotating_model_name": "gpt-4o",
+      "dataset_name": "hotpotqa_test",
+      "documents_sentences": [
+        [
+          [
+            "0a",
+            "Emilio \"El Indio\" Fernández (born Emilio Fernández Romo, ] ; March 26, 1904 – August 6, 1986) was a Mexican film director, actor and screenwriter."
+          ],
+          [
+            "0b",
+            "He was one of the most prolific film directors of the Golden Age of Mexican cinema in the 1940s and 1950s."
+          ],
+          [
+            "0c",
+            "He is best known for his work as director of the film \"Maria Candelaria\" (1944), which won the Palme d'Or award at the 1946 Cannes Film Festival."
+          ],
+          [
+            "0d",
+            "As an actor, he worked in numerous film productions in Mexico and in Hollywood."
+          ]
+        ],
+        [
+          [
+            "1a",
+            "Bugambilia (\"Bougainvillea\") is a Mexican movie of 1945 directed by Emilio Fernández and starring Dolores del Río and Pedro Armendáriz."
+          ]
+        ],
+        [
+          [
+            "2a",
+            "Victor Ronald Salva (born March 29, 1958) is an American film director and screenwriter."
+          ],
+          [
+            "2b",
+            "He directed the films \"Powder\" (1995) and \"Jeepers Creepers\" (2001)."
+          ],
+          [
+            "2c",
+            "The latter of these has been expanded into a franchise with two sequels that he has also directed."
+          ]
+        ],
+        [
+          [
+            "3a",
+            "Jaime Fernández Reyes (December 6, 1937 – April 15, 2005) was a Mexican actor."
+          ],
+          [
+            "3b",
+            "Over his career, he won 3 Silver Ariel awards - the Mexican equivalent of the Oscar - including one for what is arguably his best-known role, playing Friday in Luis Buñuel's \"Robinson Crusoe\"."
+          ],
+          [
+            "3c",
+            "He appeared in over 200 films and served as the General Secretary of the Mexican actors' union for 11 years."
+          ],
+          [
+            "3d",
+            "His older brother was actor/director Emilio Fernández."
+          ]
+        ]
+      ],
+      "response_sentences": [
+        [
+          "a",
+          "Both Victor Salva and Emilio Fernández are film directors and screenwriters."
+        ]
+      ],
+      "sentence_support_information": [
+        {
+          "explanation": "This sentence is fully supported by the documents. Document 0a states that Emilio Fernández was a film director and screenwriter, and Document 2a confirms that Victor Salva is a film director and screenwriter.",
+          "fully_supported": true,
+          "response_sentence_key": "a",
+          "supporting_sentence_keys": [
+            "0a",
+            "2a"
+          ]
+        }
+      ],
+      "unsupported_response_sentence_keys": [],
+      "adherence_score": true,
+      "overall_supported_explanation": "The response is supported by the documents. The claim that both Victor Salva and Emilio Fernández are film directors and screenwriters is directly supported by Document 0, which states that Emilio Fernández was a film director and screenwriter, and Document 2, which indicates that Victor Salva is a film director and screenwriter.",
+      "relevance_explanation": "Documents 0 and 2 contain useful information for answering the question. Document 0 provides information about Emilio Fernández's background as a film director and screenwriter, while Document 2 gives details about Victor Salva's career as a film director and screenwriter.",
+      "all_relevant_sentence_keys": [
+        "0a",
+        "2a"
+      ],
+      "all_utilized_sentence_keys": [
+        "0a",
+        "2a"
+      ],
+      "trulens_groundedness": 0.0,
+      "trulens_context_relevance": 0.8,
+      "ragas_faithfulness": 0.5,
+      "ragas_context_relevance": 0.0,
+      "gpt3_adherence": 1.0,
+      "gpt3_context_relevance": 0.5,
+      "gpt35_utilization": 0.4166666666666667,
+      "relevance_score": 0.16666666666666666,
+      "utilization_score": 0.16666666666666666,
+      "completeness_score": 1.0
+    },
+    "_domain": "hotpotqa",
+    "dataset_id": "5add60905542995b365fab1d"
+  }
+]
